@@ -1,0 +1,367 @@
+Name,Notes,Rating,Color,Rarity
+Armored Armadillo,,D+,W,C
+Steer Clear,,C-,W,C
+Eriette's Lullaby,,C-,W,C
+Outlaw Medic,,C+,W,C
+Sterling Keykeeper,,C-,W,C
+Take Up the Shield,,C,W,C
+Trained Arynx,,C+,W,C
+Holy Cow,,C+,W,C
+Inventive Wingsmith,,D+,W,C
+Mystical Tether,,B-,W,C
+Vengeful Townsfolk,,C+,W,C
+Bridled Bighorn,,C+,W,C
+Wanted Griffin,,C,W,C
+Stagecoach Security,,D,W,C
+Sterling Supplier,,C,W,C
+Getaway Glamer,,C+,W,U
+Nurturing Pixie,,B-,W,U
+Requisition Raid,,D,W,U
+Rustler Rampage,,D,W,U
+Bovine Intervention,,D+,W,U
+Frontier Seeker,,B-,W,U
+Omenport Vigilante,,C+,W,U
+Prairie Dog,,B,W,U
+Sheriff of Safe Passage,,C-,W,U
+Thunder Lasso,,D,W,U
+Lassoed by the Law,,B+,W,U
+Prosperity Tycoon,,C+,W,U
+Shepherd of the Clouds,,C-,W,U
+Bounding Felidar,,D+,W,U
+Harrier Strix,,D+,U,C
+Jailbreak Scheme,,D+,U,C
+Phantom Interference,,C,U,C
+Take the Fall,,C+,U,C
+Failed Fording,,C,U,C
+Razzle-Dazzler,,D+,U,C
+Spring Splasher,,C,U,C
+Geyser Drake,,B-,U,C
+Seize the Secrets,,C-,U,C
+Slickshot Vault-Buster,,D+,U,C
+Daring Thunder-Thief,,C,U,C
+Loan Shark,,D+,U,C
+Stop Cold,,C-,U,C
+Djinn of Fool's Fall,,D-,U,C
+Peerless Ropemaster,,D,U,C
+Metamorphic Blast,,D+,U,U
+Canyon Crab,,D+,U,U
+Emergent Haunting,,C,U,U
+Fleeting Reflection,,D+,U,U
+Shifting Grift,,D,U,U
+Deepmuck Desperado,,D-,U,U
+Nimble Brigand,,D+,U,U
+Shackle Slinger,,C-,U,U
+Slickshot Lockpicker,,B-,U,U
+Outlaw Stitcher,,C,U,U
+Plan the Heist,,C-,U,U
+Visage Bandit,,D+,U,U
+Marauding Sphinx,,C-,U,U
+This Town Ain't Big Enough,,C-,U,U
+Corrupted Conviction,,D+,B,C
+Nezumi Linkbreaker,,C-,B,C
+Skulduggery,,C,B,C
+Desert's Due,,B,B,C
+Desperate Bloodseeker,,C+,B,C
+Fake Your Own Death,,D+,B,C
+Mourner's Surprise,,C,B,C
+Raven of Fell Omens,,C-,B,C
+Blacksnag Buzzard,,C,B,C
+Vault Plunderer,,B-,B,C
+Boneyard Desecrator,,D+,B,C
+Consuming Ashes,,C+,B,C
+Rooftop Assassin,,C-,B,C
+Overzealous Muscle,,C-,B,C
+Ambush Gigapede,,D,B,C
+Forsaken Miner,,B,B,U
+Unfortunate Accident,,B-,B,U
+Binding Negotiation,,C-,B,U
+Blood Hustler,,C-,B,U
+Lively Dirge,,D+,B,U
+Servant of the Stinger,,C,B,U
+Shoot the Sheriff,,B-,B,U
+Treasure Dredger,,B,B,U
+Neutralize the Guards,,D,B,U
+Rakish Crew,,C+,B,U
+Rattleback Apothecary,,C+,B,U
+Unscrupulous Contractor,,B,B,U
+Rictus Robber,,C-,B,U
+Hollow Marauder,,C-,B,U
+Explosive Derailment,,B-,R,C
+Quick Draw,,D+,R,C
+Reckless Lackey,,B,R,C
+Deadeye Duelist,,C,R,C
+Discerning Peddler,,C,R,C
+Highway Robbery,,C+,R,C
+Thunder Salvo,,C+,R,C
+Irascible Wolverine,,C,R,C
+Mine Raider,,C+,R,C
+Outlaws' Fury,,C+,R,C
+Prickly Pair,,B+,R,C
+Quilled Charger,,C-,R,C
+Rodeo Pyromancers,,C,R,C
+Iron-Fist Pulverizer,,C-,R,C
+Trick Shot,,C-,R,C
+Brimstone Roundup,,C-,R,U
+Caught in the Crossfire,,D+,R,U
+Cunning Coyote,,B,R,U
+Demonic Ruckus,,C,R,U
+Magebane Lizard,,D+,R,U
+Resilient Roadrunner,,B,R,U
+Return the Favor,,D,R,U
+Scorching Shot,,B-,R,U
+Ferocification,,D+,R,U
+Gila Courser,,C-,R,U
+Longhorn Sharpshooter,,B,R,U
+Scalestorm Summoner,,C+,R,U
+Take for a Ride,,D+,R,U
+Hellspur Brute,,B,R,U
+Ankle Biter,,D+,G,C
+Snakeskin Veil,,D+,G,C
+Bristlepack Sentry,,D+,G,C
+Dance of the Tumbleweeds,,D+,G,C
+Hardbristle Bandit,,C+,G,C
+Throw from the Saddle,,C+,G,C
+Tumbleweed Rising,,C,G,C
+Voracious Varmint,,C+,G,C
+Drover Grizzly,,D+,G,C
+Freestrider Commando,,C-,G,C
+Patient Naturalist,,C-,G,C
+Giant Beaver,,C,G,C
+Reach for the Sky,,D+,G,C
+Spinewoods Paladin,,C+,G,C
+Cactarantula,,C-,G,C
+Trash the Town,,C-,G,U
+Aloe Alchemist,,B-,G,U
+Gold Rush,,D+,G,U
+Intrepid Stablemaster,,B-,G,U
+Raucous Entertainer,,C+,G,U
+Stubborn Burrowfiend,,C,G,U
+Beastbond Outcaster,,C+,G,U
+Outcaster Greenblade,,B-,G,U
+Rambling Possum,,C+,G,U
+Map the Frontier,,D,G,U
+Rise of the Varmints,,D+,G,U
+Full Steam Ahead,,C,G,U
+Betrayal at the Vault,,C,G,U
+Spinewoods Armadillo,,C,G,U
+"Jem Lightfoote, Sky Explorer",,B+,M,U
+Wrangler of the Damned,,C,M,U
+Intimidation Campaign,,C+,M,U
+"Lazav, Familiar Stranger",,C-,M,U
+"Vial Smasher, Gleeful Grenadier",,B+,M,U
+At Knifepoint,,B-,M,U
+"Jolene, Plundering Pugilist",,C-,M,U
+Cactusfolk Sureshot,,C,M,U
+"Miriam, Herd Whisperer",,B,M,U
+Congregation Gryff,,C,M,U
+Ruthless Lawbringer,,C+,M,U
+Baron Bertram Graywater,,C,M,U
+Slick Sequence,,C-,M,U
+"Kraum, Violent Cacophony",,C+,M,U
+Honest Rutstein,,B,M,U
+Badlands Revival,,C-,M,U
+Form a Posse,,B,M,U
+"Ertha Jo, Frontier Mentor",,B-,M,U
+"Doc Aurlock, Grizzled Genius",,B-,M,U
+Make Your Own Luck,,D,M,U
+Gold Pan,,D,A,C
+Silver Deputy,,D+,A,C
+Oasis Gardener,,D,A,C
+Sterling Hound,,D+,A,C
+Lavaspur Boots,,C-,A,U
+Boom Box,,D+,A,U
+Mobile Homestead,,C,A,U
+Tomb Trawler,,D,A,U
+Bandit's Haul,,D+,A,U
+Redrock Sentinel,,C,A,U
+Luxurious Locomotive,,D+,A,U
+Abraded Bluffs,,C,L,C
+Bristling Backwoods,,C,L,C
+Conduit Pylons,,D+,L,C
+Creosote Heath,,C,L,C
+Eroded Canyon,,C,L,C
+Festering Gulch,,C,L,C
+Forlorn Flats,,C,L,C
+Jagged Barrens,,C,L,C
+Lonely Arroyo,,C,L,C
+Lush Oasis,,C,L,C
+Mirage Mesa,,C-,L,C
+Soured Springs,,C,L,C
+Arid Archway,,D-,L,U
+Bucolic Ranch,,D-,L,U
+Sandstorm Verge,,D,L,U
+Dust Animus,,A-,W,R
+High Noon,,D,W,R
+Another Round,,D,W,R
+Aven Interrupter,,B-,W,R
+Claim Jumper,,B,W,R
+"Fortune, Loyal Steed",,C+,W,R
+One Last Job,,D,W,R
+Archangel of Tithes,,A,W,M
+Final Showdown,,B+,W,M
+Three Steps Ahead,,C+,U,R
+Archmage's Newt,,C,U,R
+Duelist of the Mind,,B+,U,R
+The Key to the Vault,,D+,U,R
+"Fblthp, Lost on the Range",,A-,U,R
+Stoic Sphinx,,B+,U,R
+Step Between Worlds,,D+,U,R
+Jace Reawakened,,A-,U,M
+"Geralf, the Fleshwright",,B+,U,M
+Double Down,,D-,U,M
+Insatiable Avarice,,B-,B,R
+Tinybones Joins Up,,D+,B,R
+Caustic Bronco,,C+,B,R
+"Vadmir, New Blood",,B,B,R
+"Kaervek, the Punisher",,B-,B,R
+Rush of Dread,,B-,B,R
+Pitiless Carnage,,C-,B,R
+"Tinybones, the Pickpocket",,B+,B,M
+"Gisa, the Hellraiser",,A-,B,M
+Great Train Heist,,C+,R,R
+Hell to Pay,,B,R,R
+"Magda, the Hoardmaster",,A-,R,R
+Slickshot Show-Off,,B,R,R
+Hellspur Posse Boss,,A,R,R
+Stingerback Terror,,A,R,R
+"Calamity, Galloping Inferno",,B,R,R
+Terror of the Peaks,,A+,R,M
+Smuggler's Surprise,,C,G,R
+Freestrider Lookout,,B-,G,R
+Ornery Tumblewagg,,A,G,R
+Outcaster Trailblazer,,B-,G,R
+Colossal Rattlewurm,,A,G,R
+Goldvein Hydra,,A-,G,M
+"Bristly Bill, Spine Sower",,A-,G,M
+Railway Brawler,,A,G,M
+"Satoru, the Infiltrator",,B,M,R
+Laughing Jasper Flint,,A,M,R
+Akul the Unrepentant,,B-,M,R
+Rakdos Joins Up,,C-,M,R
+"Roxanne, Starfall Savant",,A-,M,R
+Seraphic Steed,,A,M,R
+"Wylie Duke, Atiin Hero",,C+,M,R
+"Kambal, Profiteering Mayor",,C-,M,R
+"Malcolm, the Eyes",,A,M,R
+"Breeches, the Blastmaker",,B,M,R
+"Lilah, Undefeated Slickshot",,B,M,R
+Pillage the Bog,,B-,M,R
+Vraska Joins Up,,C+,M,R
+"Taii Wakeen, Perfect Shot",,C,M,R
+"Bruse Tarl, Roving Rancher",,A-,M,R
+"Bonny Pall, Clearcutter",,A+,M,R
+Kellan Joins Up,,C-,M,R
+"Eriette, the Beguiler",,C-,M,R
+"Marchesa, Dealer of Death",,C+,M,R
+"Obeka, Splitter of Seconds",,D+,M,R
+Annie Joins Up,,B-,M,R
+Riku of Many Paths,,B+,M,R
+Assimilation Aegis,,A-,M,M
+"Rakdos, the Muscle",,A+,M,M
+"Selvala, Eager Trailblazer",,A,M,M
+"Vraska, the Silencer",,B,M,M
+"The Gitrog, Ravenous Ride",,A,M,M
+"Oko, the Ringleader",,A+,M,M
+"Kellan, the Kid",,B+,M,M
+"Ghired, Mirror of the Wilds",,C,M,M
+"Annie Flash, the Veteran",,A-,M,M
+Blooming Marsh,,C-,L,R
+Botanical Sanctum,,C-,L,R
+Concealed Courtyard,,C-,L,R
+Inspiring Vantage,,C-,L,R
+Spirebluff Canal,,C-,L,R
+Journey to Nowhere,,B,W,U
+Fierce Retribution,,C-,W,U
+Essence Capture,,D+,U,U
+Tyrant's Scorn,,C+,M,U
+Terminal Agony,,C,M,U
+Repulse,,B-,U,U
+Savage Smash,,C,M,U
+Hindering Light,,D-,M,U
+Humiliate,,D+,M,U
+Hypothesizzle,,C,M,U
+Ride Down,,C+,M,U
+Decisive Denial,,C+,M,U
+Back for More,,D+,M,U
+Heartless Pillage,,D,M,U
+Buried in the Garden,,B-,M,U
+Murder,,C+,B,U
+Fling,,C+,R,U
+Thornado,,D,G,U
+Skewer the Critics,,B-,R,U
+Clear Shot,,B,G,U
+Dust Bowl,,D-,L,R
+Path to Exile,,D+,W,R
+Pariah,,B+,W,R
+Fell the Mighty,,C-,W,R
+Archmage's Charm,,C,U,R
+Archive Trap,,D-,U,R
+Commandeer,,D-,U,R
+Reanimate,,B+,B,R
+Surgical Extraction,,D-,B,R
+Imp's Mischief,,C-,B,R
+Electrodominance,,A-,R,R
+Skullcrack,,D+,R,R
+Collective Defiance,,B+,R,R
+Primal Command,,D+,G,R
+Primal Might,,C+,G,R
+Pest Infestation,,B-,G,R
+Unlicensed Hearse,,C,A,R
+Detention Sphere,,B-,M,R
+Siphon Insight,,C,M,R
+Bedevil,,C+,M,R
+Decimate,,D-,M,R
+Vanishing Verse,,C+,M,R
+Ionize,,D,M,R
+Abrupt Decay,,C+,M,R
+Outlaws' Merriment,,A-,M,R
+Voidslime,,D,M,R
+Endless Detour,,C-,M,R
+Void Rend,,C-,M,R
+Cruel Ultimatum,,D,M,R
+Villainous Wealth,,D+,M,R
+Leyline Binding,,C,W,M
+Crime // Punishment,,D,M,M
+"Oko, Thief of Crowns",,A+,M,M
+Anguished Unmaking,,B,M,M
+Fractured Identity,,B,M,M
+Mindslaver,,D-,A,M
+Contagion Engine,,D-,A,M
+Grindstone,,G,A,M
+Force of Vigor,,G,G,M
+Indomitable Creativity,,G,R,M
+Crackle with Power,,C-,R,M
+Overwhelming Forces,,D,B,M
+Thoughtseize,,C-,B,M
+Mindbreak Trap,,D-,U,M
+Mana Drain,,C+,U,M
+Fomori Vault,,G,L,M
+Tarnation Vista,,G,L,M
+Nexus of Becoming,,G,A,M
+Transmutation Font,,G,A,M
+Sword of Wealth and Power,,G,A,M
+Lotus Ring,,G,A,M
+Torpor Orb,,G,A,M
+Lost Jitte,,G,A,M
+"Loot, the Key to Everything",,G,M,M
+Vaultborn Tyrant,,G,G,M
+Pest Control,,G,M,M
+Omenpath Journey,,G,G,M
+Bristlebud Farmer,,G,G,M
+Sandstorm Salvager,,G,G,M
+Molten Duplication,,G,R,M
+Memory Vessel,,G,R,M
+Legion Extruder,,G,R,M
+Harvester of Misery,,G,B,M
+Hostile Investigator,,G,B,M
+Greed's Gambit,,G,B,M
+Worldwalker Helm,,G,U,M
+Simulacrum Synthesizer,,G,U,M
+Esoteric Duplicator,,G,U,M
+Oltec Matterweaver,,G,W,M
+Rest in Peace,,G,W,M
+Grand Abolisher,,G,W,M
+Ancient Cornucopia,,G,G,M
+Territory Forge,,G,R,M
+Collector's Cage,,G,W,M
+Generous Plunderer,,G,R,M
