@@ -1,0 +1,268 @@
+Name,Color,Rarity,Kevin,Kevin_num,Nate,Nate_num,Tier,Tier_num,Kevin_error,Nate_error
+Armored Armadillo,W,C,D,2.0,D+,3.0,D,2.0,0.0,1.0
+Steer Clear,W,C,C-,4.0,C-,4.0,D+,3.0,1.0,1.0
+Eriette's Lullaby,W,C,C-,4.0,C-,4.0,D+,3.0,1.0,1.0
+Outlaw Medic,W,C,C,5.0,C+,6.0,C+,6.0,1.0,0.0
+Sterling Keykeeper,W,C,C-,4.0,C-,4.0,C,5.0,1.0,1.0
+Take Up the Shield,W,C,C+,6.0,C,5.0,B,8.0,2.0,3.0
+Trained Arynx,W,C,C,5.0,C+,6.0,B-,7.0,2.0,1.0
+Holy Cow,W,C,C+,6.0,C+,6.0,C+,6.0,0.0,0.0
+Inventive Wingsmith,W,C,C+,6.0,D+,3.0,D,2.0,4.0,1.0
+Mystical Tether,W,C,B,8.0,B-,7.0,B-,7.0,1.0,0.0
+Vengeful Townsfolk,W,C,D+,3.0,C+,6.0,C+,6.0,3.0,0.0
+Bridled Bighorn,W,C,C+,6.0,C+,6.0,D+,3.0,3.0,3.0
+Wanted Griffin,W,C,C,5.0,C,5.0,C-,4.0,1.0,1.0
+Stagecoach Security,W,C,C,5.0,D,2.0,C+,6.0,1.0,4.0
+Sterling Supplier,W,C,C-,4.0,C,5.0,C-,4.0,0.0,1.0
+Getaway Glamer,W,U,D,2.0,C+,6.0,B,8.0,6.0,2.0
+Nurturing Pixie,W,U,D+,3.0,B-,7.0,D+,3.0,0.0,4.0
+Requisition Raid,W,U,D+,3.0,D,2.0,C-,4.0,1.0,2.0
+Rustler Rampage,W,U,D+,3.0,D,2.0,D,2.0,1.0,0.0
+Bovine Intervention,W,U,D,2.0,D+,3.0,F,0.0,2.0,3.0
+Frontier Seeker,W,U,B-,7.0,B-,7.0,B-,7.0,0.0,0.0
+Omenport Vigilante,W,U,C+,6.0,C+,6.0,C-,4.0,2.0,2.0
+Prairie Dog,W,U,B,8.0,B,8.0,B,8.0,0.0,0.0
+Sheriff of Safe Passage,W,U,C-,4.0,C-,4.0,D,2.0,2.0,2.0
+Thunder Lasso,W,U,D+,3.0,D,2.0,D+,3.0,0.0,1.0
+Lassoed by the Law,W,U,A-,10.0,B+,9.0,A-,10.0,0.0,1.0
+Prosperity Tycoon,W,U,C+,6.0,C+,6.0,B,8.0,2.0,2.0
+Shepherd of the Clouds,W,U,C,5.0,C-,4.0,B+,9.0,4.0,5.0
+Bounding Felidar,W,U,C,5.0,D+,3.0,C+,6.0,1.0,3.0
+Harrier Strix,U,C,D+,3.0,D+,3.0,D,2.0,1.0,1.0
+Jailbreak Scheme,U,C,D,2.0,D+,3.0,C,5.0,3.0,2.0
+Phantom Interference,U,C,C+,6.0,C,5.0,C+,6.0,0.0,1.0
+Take the Fall,U,C,C,5.0,C+,6.0,B-,7.0,2.0,1.0
+Failed Fording,U,C,C-,4.0,C,5.0,D+,3.0,1.0,2.0
+Razzle-Dazzler,U,C,C,5.0,D+,3.0,D+,3.0,2.0,0.0
+Spring Splasher,U,C,D+,3.0,C,5.0,D+,3.0,0.0,2.0
+Geyser Drake,U,C,C+,6.0,B-,7.0,C,5.0,1.0,2.0
+Seize the Secrets,U,C,C-,4.0,C-,4.0,C-,4.0,0.0,0.0
+Slickshot Vault-Buster,U,C,C+,6.0,D+,3.0,D,2.0,4.0,1.0
+Daring Thunder-Thief,U,C,C+,6.0,C,5.0,D+,3.0,3.0,2.0
+Loan Shark,U,C,C+,6.0,D+,3.0,C+,6.0,0.0,3.0
+Stop Cold,U,C,C,5.0,C-,4.0,C-,4.0,1.0,0.0
+Djinn of Fool's Fall,U,C,D+,3.0,D-,1.0,D-,1.0,2.0,0.0
+Peerless Ropemaster,U,C,D+,3.0,D,2.0,D+,3.0,0.0,1.0
+Metamorphic Blast,U,U,B-,7.0,D+,3.0,C+,6.0,1.0,3.0
+Canyon Crab,U,U,C+,6.0,D+,3.0,C+,6.0,0.0,3.0
+Emergent Haunting,U,U,B,8.0,C,5.0,B-,7.0,1.0,2.0
+Fleeting Reflection,U,U,C,5.0,D+,3.0,D+,3.0,2.0,0.0
+Shifting Grift,U,U,C,5.0,D,2.0,D-,1.0,4.0,1.0
+Deepmuck Desperado,U,U,D,2.0,D-,1.0,C,5.0,3.0,4.0
+Nimble Brigand,U,U,D+,3.0,D+,3.0,C,5.0,2.0,2.0
+Shackle Slinger,U,U,D+,3.0,C-,4.0,D,2.0,1.0,2.0
+Slickshot Lockpicker,U,U,B-,7.0,B-,7.0,B-,7.0,0.0,0.0
+Outlaw Stitcher,U,U,B,8.0,C,5.0,B-,7.0,1.0,2.0
+Plan the Heist,U,U,B,8.0,C-,4.0,C,5.0,3.0,1.0
+Visage Bandit,U,U,C,5.0,D+,3.0,C,5.0,0.0,2.0
+Marauding Sphinx,U,U,C,5.0,C-,4.0,B,8.0,3.0,4.0
+This Town Ain't Big Enough,U,U,C+,6.0,C-,4.0,C+,6.0,0.0,2.0
+Corrupted Conviction,B,C,C-,4.0,D+,3.0,D+,3.0,1.0,0.0
+Nezumi Linkbreaker,B,C,C-,4.0,C-,4.0,C,5.0,1.0,1.0
+Skulduggery,B,C,C,5.0,C,5.0,C-,4.0,1.0,1.0
+Desert's Due,B,C,C+,6.0,B,8.0,B-,7.0,1.0,1.0
+Desperate Bloodseeker,B,C,B-,7.0,C+,6.0,C+,6.0,1.0,0.0
+Fake Your Own Death,B,C,D+,3.0,D+,3.0,C-,4.0,1.0,1.0
+Mourner's Surprise,B,C,C,5.0,C,5.0,B-,7.0,2.0,2.0
+Raven of Fell Omens,B,C,C-,4.0,C-,4.0,C,5.0,1.0,1.0
+Blacksnag Buzzard,B,C,D+,3.0,C,5.0,D,2.0,1.0,3.0
+Vault Plunderer,B,C,B-,7.0,B-,7.0,C+,6.0,1.0,1.0
+Boneyard Desecrator,B,C,D+,3.0,D+,3.0,D,2.0,1.0,1.0
+Consuming Ashes,B,C,C+,6.0,C+,6.0,B,8.0,2.0,2.0
+Rooftop Assassin,B,C,D,2.0,C-,4.0,C,5.0,3.0,1.0
+Overzealous Muscle,B,C,C,5.0,C-,4.0,D-,1.0,4.0,3.0
+Ambush Gigapede,B,C,C-,4.0,D,2.0,C+,6.0,2.0,4.0
+Forsaken Miner,B,U,C+,6.0,B,8.0,C+,6.0,0.0,2.0
+Unfortunate Accident,B,U,B-,7.0,B-,7.0,B,8.0,1.0,1.0
+Binding Negotiation,B,U,D+,3.0,C-,4.0,C,5.0,2.0,1.0
+Blood Hustler,B,U,C,5.0,C-,4.0,C-,4.0,1.0,0.0
+Lively Dirge,B,U,B-,7.0,D+,3.0,C+,6.0,1.0,3.0
+Servant of the Stinger,B,U,B,8.0,C,5.0,B-,7.0,1.0,2.0
+Shoot the Sheriff,B,U,B+,9.0,B-,7.0,B-,7.0,2.0,0.0
+Treasure Dredger,B,U,B-,7.0,B,8.0,D+,3.0,4.0,5.0
+Rakish Crew,B,U,D,2.0,C+,6.0,C+,6.0,4.0,0.0
+Rattleback Apothecary,B,U,C+,6.0,C+,6.0,D+,3.0,3.0,3.0
+Unscrupulous Contractor,B,U,C+,6.0,B,8.0,C+,6.0,0.0,2.0
+Rictus Robber,B,U,C+,6.0,C-,4.0,C+,6.0,0.0,2.0
+Hollow Marauder,B,U,B-,7.0,C-,4.0,A-,10.0,3.0,6.0
+Explosive Derailment,R,C,C+,6.0,B-,7.0,C+,6.0,0.0,1.0
+Quick Draw,R,C,D+,3.0,D+,3.0,D-,1.0,2.0,2.0
+Reckless Lackey,R,C,C+,6.0,B,8.0,C-,4.0,2.0,4.0
+Deadeye Duelist,R,C,D+,3.0,C,5.0,C,5.0,2.0,0.0
+Discerning Peddler,R,C,C+,6.0,C,5.0,C+,6.0,0.0,1.0
+Highway Robbery,R,C,C-,4.0,C+,6.0,C-,4.0,0.0,2.0
+Thunder Salvo,R,C,C+,6.0,C+,6.0,C,5.0,1.0,1.0
+Irascible Wolverine,R,C,C,5.0,C,5.0,C+,6.0,1.0,1.0
+Mine Raider,R,C,B-,7.0,C+,6.0,D+,3.0,4.0,3.0
+Outlaws' Fury,R,C,C+,6.0,C+,6.0,D,2.0,4.0,4.0
+Prickly Pair,R,C,B,8.0,B+,9.0,C+,6.0,2.0,3.0
+Quilled Charger,R,C,C-,4.0,C-,4.0,D,2.0,2.0,2.0
+Rodeo Pyromancers,R,C,C,5.0,C,5.0,D-,1.0,4.0,4.0
+Iron-Fist Pulverizer,R,C,C-,4.0,C-,4.0,D+,3.0,1.0,1.0
+Trick Shot,R,C,D+,3.0,C-,4.0,D+,3.0,0.0,1.0
+Brimstone Roundup,R,U,D,2.0,C-,4.0,D,2.0,0.0,2.0
+Cunning Coyote,R,U,C+,6.0,B,8.0,B-,7.0,1.0,1.0
+Demonic Ruckus,R,U,C-,4.0,C,5.0,B-,7.0,3.0,2.0
+Resilient Roadrunner,R,U,C,5.0,B,8.0,C+,6.0,1.0,2.0
+Scorching Shot,R,U,B-,7.0,B-,7.0,C+,6.0,1.0,1.0
+Ferocification,R,U,D,2.0,D+,3.0,F,0.0,2.0,3.0
+Gila Courser,R,U,D+,3.0,C-,4.0,C+,6.0,3.0,2.0
+Longhorn Sharpshooter,R,U,B-,7.0,B,8.0,B,8.0,1.0,0.0
+Scalestorm Summoner,R,U,B,8.0,C+,6.0,B-,7.0,1.0,1.0
+Take for a Ride,R,U,C-,4.0,D+,3.0,C+,6.0,2.0,3.0
+Hellspur Brute,R,U,B,8.0,B,8.0,B-,7.0,1.0,1.0
+Ankle Biter,G,C,D,2.0,D+,3.0,D,2.0,0.0,1.0
+Snakeskin Veil,G,C,C,5.0,D+,3.0,B-,7.0,2.0,4.0
+Bristlepack Sentry,G,C,C-,4.0,D+,3.0,C,5.0,1.0,2.0
+Dance of the Tumbleweeds,G,C,C,5.0,D+,3.0,B-,7.0,2.0,4.0
+Hardbristle Bandit,G,C,C+,6.0,C+,6.0,C,5.0,1.0,1.0
+Throw from the Saddle,G,C,C+,6.0,C+,6.0,B,8.0,2.0,2.0
+Tumbleweed Rising,G,C,C,5.0,C,5.0,C,5.0,0.0,0.0
+Voracious Varmint,G,C,C,5.0,C+,6.0,C,5.0,0.0,1.0
+Drover Grizzly,G,C,D,2.0,D+,3.0,C,5.0,3.0,2.0
+Freestrider Commando,G,C,C+,6.0,C-,4.0,D+,3.0,3.0,1.0
+Patient Naturalist,G,C,B-,7.0,C-,4.0,B-,7.0,0.0,3.0
+Giant Beaver,G,C,C+,6.0,C,5.0,C+,6.0,0.0,1.0
+Reach for the Sky,G,C,D+,3.0,D+,3.0,D,2.0,1.0,1.0
+Spinewoods Paladin,G,C,C+,6.0,C+,6.0,B-,7.0,1.0,1.0
+Cactarantula,G,C,C,5.0,C-,4.0,B-,7.0,2.0,3.0
+Trash the Town,G,U,B-,7.0,C-,4.0,B,8.0,1.0,4.0
+Aloe Alchemist,G,U,B,8.0,B-,7.0,B,8.0,0.0,1.0
+Gold Rush,G,U,D+,3.0,D+,3.0,D,2.0,1.0,1.0
+Intrepid Stablemaster,G,U,B,8.0,B-,7.0,B-,7.0,1.0,0.0
+Raucous Entertainer,G,U,C,5.0,C+,6.0,C,5.0,0.0,1.0
+Stubborn Burrowfiend,G,U,C+,6.0,C,5.0,B-,7.0,1.0,2.0
+Beastbond Outcaster,G,U,C,5.0,C+,6.0,B+,9.0,4.0,3.0
+Outcaster Greenblade,G,U,C+,6.0,B-,7.0,A-,10.0,4.0,3.0
+Rambling Possum,G,U,C,5.0,C+,6.0,B-,7.0,2.0,1.0
+Map the Frontier,G,U,G,0.0,D,2.0,D-,1.0,1.0,1.0
+Rise of the Varmints,G,U,B,8.0,D+,3.0,C+,6.0,2.0,3.0
+Full Steam Ahead,G,U,D+,3.0,C,5.0,D+,3.0,0.0,2.0
+Betrayal at the Vault,G,U,C,5.0,C,5.0,C+,6.0,1.0,1.0
+Spinewoods Armadillo,G,U,B-,7.0,C,5.0,A-,10.0,3.0,5.0
+"Jem Lightfoote, Sky Explorer",M,U,C+,6.0,B+,9.0,C+,6.0,0.0,3.0
+Wrangler of the Damned,M,U,C+,6.0,C,5.0,D+,3.0,3.0,2.0
+Intimidation Campaign,M,U,D+,3.0,C+,6.0,C+,6.0,3.0,0.0
+"Lazav, Familiar Stranger",M,U,B-,7.0,C-,4.0,C+,6.0,1.0,2.0
+"Vial Smasher, Gleeful Grenadier",M,U,B,8.0,B+,9.0,B,8.0,0.0,1.0
+At Knifepoint,M,U,D,2.0,B-,7.0,D,2.0,0.0,5.0
+"Jolene, Plundering Pugilist",M,U,C,5.0,C-,4.0,B-,7.0,2.0,3.0
+Cactusfolk Sureshot,M,U,B,8.0,C,5.0,B-,7.0,1.0,2.0
+"Miriam, Herd Whisperer",M,U,B,8.0,B,8.0,B+,9.0,1.0,1.0
+Congregation Gryff,M,U,C,5.0,C,5.0,A-,10.0,5.0,5.0
+Ruthless Lawbringer,M,U,B+,9.0,C+,6.0,B,8.0,1.0,2.0
+Baron Bertram Graywater,M,U,C+,6.0,C,5.0,D,2.0,4.0,3.0
+Slick Sequence,M,U,B,8.0,C-,4.0,B-,7.0,1.0,3.0
+"Kraum, Violent Cacophony",M,U,C+,6.0,C+,6.0,C,5.0,1.0,1.0
+Honest Rutstein,M,U,A-,10.0,B,8.0,B+,9.0,1.0,1.0
+Badlands Revival,M,U,C+,6.0,C-,4.0,B-,7.0,1.0,3.0
+Form a Posse,M,U,B,8.0,B,8.0,C+,6.0,2.0,2.0
+"Ertha Jo, Frontier Mentor",M,U,B,8.0,B-,7.0,B-,7.0,1.0,0.0
+"Doc Aurlock, Grizzled Genius",M,U,B,8.0,B-,7.0,C,5.0,3.0,2.0
+Make Your Own Luck,M,U,C+,6.0,D,2.0,B,8.0,2.0,6.0
+Gold Pan,A,C,D+,3.0,D,2.0,D,2.0,1.0,0.0
+Silver Deputy,A,C,D+,3.0,D+,3.0,D,2.0,1.0,1.0
+Oasis Gardener,A,C,C,5.0,D,2.0,D+,3.0,2.0,1.0
+Sterling Hound,A,C,D+,3.0,D+,3.0,C-,4.0,1.0,1.0
+Lavaspur Boots,A,U,D+,3.0,C-,4.0,F,0.0,3.0,4.0
+Boom Box,A,U,D-,1.0,D+,3.0,D-,1.0,0.0,2.0
+Mobile Homestead,A,U,D+,3.0,C,5.0,C+,6.0,3.0,1.0
+Tomb Trawler,A,U,D-,1.0,D,2.0,D-,1.0,0.0,1.0
+Bandit's Haul,A,U,D,2.0,D+,3.0,C+,6.0,4.0,3.0
+Redrock Sentinel,A,U,C-,4.0,C,5.0,C,5.0,1.0,0.0
+Luxurious Locomotive,A,U,D+,3.0,D+,3.0,D,2.0,1.0,1.0
+Abraded Bluffs,L,C,B-,7.0,C,5.0,B-,7.0,0.0,2.0
+Bristling Backwoods,L,C,C,5.0,C,5.0,B-,7.0,2.0,2.0
+Conduit Pylons,L,C,C,5.0,D+,3.0,C+,6.0,1.0,3.0
+Creosote Heath,L,C,C+,6.0,C,5.0,B-,7.0,1.0,2.0
+Eroded Canyon,L,C,C+,6.0,C,5.0,B-,7.0,1.0,2.0
+Festering Gulch,L,C,B-,7.0,C,5.0,B-,7.0,0.0,2.0
+Forlorn Flats,L,C,C,5.0,C,5.0,B-,7.0,2.0,2.0
+Jagged Barrens,L,C,C,5.0,C,5.0,B-,7.0,2.0,2.0
+Lonely Arroyo,L,C,B-,7.0,C,5.0,B-,7.0,0.0,2.0
+Lush Oasis,L,C,C+,6.0,C,5.0,B-,7.0,1.0,2.0
+Mirage Mesa,L,C,B,8.0,C-,4.0,B-,7.0,1.0,3.0
+Soured Springs,L,C,C+,6.0,C,5.0,B-,7.0,1.0,2.0
+Arid Archway,L,U,D,2.0,D-,1.0,C,5.0,3.0,4.0
+Bucolic Ranch,L,U,D+,3.0,D-,1.0,B-,7.0,4.0,6.0
+Sandstorm Verge,L,U,D+,3.0,D,2.0,D+,3.0,0.0,1.0
+Dust Animus,W,R,B,8.0,A-,10.0,A,11.0,3.0,1.0
+High Noon,W,R,D,2.0,D,2.0,F,0.0,2.0,2.0
+Another Round,W,R,C-,4.0,D,2.0,F,0.0,4.0,2.0
+Aven Interrupter,W,R,B,8.0,B-,7.0,B,8.0,0.0,1.0
+Claim Jumper,W,R,B,8.0,B,8.0,C,5.0,3.0,3.0
+"Fortune, Loyal Steed",W,R,C+,6.0,C+,6.0,A-,10.0,4.0,4.0
+One Last Job,W,R,B-,7.0,D,2.0,B-,7.0,0.0,5.0
+Archangel of Tithes,W,M,A-,10.0,A,11.0,C+,6.0,4.0,5.0
+Final Showdown,W,M,B,8.0,B+,9.0,A,11.0,3.0,2.0
+Three Steps Ahead,U,R,B+,9.0,C+,6.0,B,8.0,1.0,2.0
+Archmage's Newt,U,R,B,8.0,C,5.0,D+,3.0,5.0,2.0
+Duelist of the Mind,U,R,C,5.0,B+,9.0,B+,9.0,4.0,0.0
+The Key to the Vault,U,R,B,8.0,D+,3.0,F,0.0,8.0,3.0
+"Fblthp, Lost on the Range",U,R,B,8.0,A-,10.0,D,2.0,6.0,8.0
+Stoic Sphinx,U,R,B,8.0,B+,9.0,A,11.0,3.0,2.0
+Step Between Worlds,U,R,D+,3.0,D+,3.0,F,0.0,3.0,3.0
+Jace Reawakened,U,M,B,8.0,A-,10.0,D,2.0,6.0,8.0
+"Geralf, the Fleshwright",U,M,A,11.0,B+,9.0,B+,9.0,2.0,0.0
+Double Down,U,M,B,8.0,D-,1.0,A-,10.0,2.0,9.0
+Insatiable Avarice,B,R,B,8.0,B-,7.0,D-,1.0,7.0,6.0
+Tinybones Joins Up,B,R,C+,6.0,D+,3.0,D-,1.0,5.0,2.0
+Caustic Bronco,B,R,B+,9.0,C+,6.0,B+,9.0,0.0,3.0
+"Vadmir, New Blood",B,R,B,8.0,B,8.0,B,8.0,0.0,0.0
+"Kaervek, the Punisher",B,R,B+,9.0,B-,7.0,C,5.0,4.0,2.0
+Rush of Dread,B,R,B+,9.0,B-,7.0,B+,9.0,0.0,2.0
+Pitiless Carnage,B,R,B-,7.0,C-,4.0,D-,1.0,6.0,3.0
+"Tinybones, the Pickpocket",B,M,B+,9.0,B+,9.0,C,5.0,4.0,4.0
+"Gisa, the Hellraiser",B,M,A+,12.0,A-,10.0,A,11.0,1.0,1.0
+Great Train Heist,R,R,A,11.0,C+,6.0,C-,4.0,7.0,2.0
+Hell to Pay,R,R,B,8.0,B,8.0,D+,3.0,5.0,5.0
+"Magda, the Hoardmaster",R,R,A-,10.0,A-,10.0,B,8.0,2.0,2.0
+Slickshot Show-Off,R,R,C+,6.0,B,8.0,D,2.0,4.0,6.0
+Hellspur Posse Boss,R,R,A-,10.0,A,11.0,A,11.0,1.0,0.0
+Stingerback Terror,R,R,B+,9.0,A,11.0,A-,10.0,1.0,1.0
+"Calamity, Galloping Inferno",R,R,A,11.0,B,8.0,B,8.0,3.0,0.0
+Terror of the Peaks,R,M,A+,12.0,A+,12.0,A,11.0,1.0,1.0
+Smuggler's Surprise,G,R,D+,3.0,C,5.0,C+,6.0,3.0,1.0
+Freestrider Lookout,G,R,B,8.0,B-,7.0,B+,9.0,1.0,2.0
+Ornery Tumblewagg,G,R,A,11.0,A,11.0,A,11.0,0.0,0.0
+Outcaster Trailblazer,G,R,B+,9.0,B-,7.0,B+,9.0,0.0,2.0
+Colossal Rattlewurm,G,R,A,11.0,A,11.0,A,11.0,0.0,0.0
+Goldvein Hydra,G,M,A-,10.0,A-,10.0,B+,9.0,1.0,1.0
+"Bristly Bill, Spine Sower",G,M,A+,12.0,A-,10.0,A+,12.0,0.0,2.0
+Railway Brawler,G,M,A,11.0,A,11.0,A+,12.0,1.0,1.0
+"Satoru, the Infiltrator",M,R,B+,9.0,B,8.0,C+,6.0,3.0,2.0
+Laughing Jasper Flint,M,R,B+,9.0,A,11.0,A,11.0,2.0,0.0
+Akul the Unrepentant,M,R,B,8.0,B-,7.0,C-,4.0,4.0,3.0
+Rakdos Joins Up,M,R,C+,6.0,C-,4.0,B-,7.0,1.0,3.0
+"Roxanne, Starfall Savant",M,R,A+,12.0,A-,10.0,A+,12.0,0.0,2.0
+Seraphic Steed,M,R,A,11.0,A,11.0,A,11.0,0.0,0.0
+"Wylie Duke, Atiin Hero",M,R,C-,4.0,C+,6.0,A-,10.0,6.0,4.0
+"Kambal, Profiteering Mayor",M,R,C+,6.0,C-,4.0,B-,7.0,1.0,3.0
+"Malcolm, the Eyes",M,R,B,8.0,A,11.0,B,8.0,0.0,3.0
+"Breeches, the Blastmaker",M,R,A,11.0,B,8.0,C+,6.0,5.0,2.0
+"Lilah, Undefeated Slickshot",M,R,B+,9.0,B,8.0,C,5.0,4.0,3.0
+Pillage the Bog,M,R,D+,3.0,B-,7.0,C,5.0,2.0,2.0
+Vraska Joins Up,M,R,D+,3.0,C+,6.0,D,2.0,1.0,4.0
+"Taii Wakeen, Perfect Shot",M,R,B,8.0,C,5.0,C,5.0,3.0,0.0
+"Bruse Tarl, Roving Rancher",M,R,B+,9.0,A-,10.0,A,11.0,2.0,1.0
+"Bonny Pall, Clearcutter",M,R,A-,10.0,A+,12.0,A+,12.0,2.0,0.0
+Kellan Joins Up,M,R,C-,4.0,C-,4.0,B-,7.0,3.0,3.0
+"Eriette, the Beguiler",M,R,B,8.0,C-,4.0,D+,3.0,5.0,1.0
+"Marchesa, Dealer of Death",M,R,B,8.0,C+,6.0,B,8.0,0.0,2.0
+"Obeka, Splitter of Seconds",M,R,B-,7.0,D+,3.0,F,0.0,7.0,3.0
+Annie Joins Up,M,R,D+,3.0,B-,7.0,C,5.0,2.0,2.0
+Riku of Many Paths,M,R,D+,3.0,B+,9.0,D+,3.0,0.0,6.0
+Assimilation Aegis,M,M,B,8.0,A-,10.0,A-,10.0,2.0,0.0
+"Rakdos, the Muscle",M,M,A+,12.0,A+,12.0,A,11.0,1.0,1.0
+"Selvala, Eager Trailblazer",M,M,A,11.0,A,11.0,A-,10.0,1.0,1.0
+"Vraska, the Silencer",M,M,B+,9.0,B,8.0,C+,6.0,3.0,2.0
+"The Gitrog, Ravenous Ride",M,M,A,11.0,A,11.0,A-,10.0,1.0,1.0
+"Oko, the Ringleader",M,M,A-,10.0,A+,12.0,A-,10.0,0.0,2.0
+"Kellan, the Kid",M,M,B,8.0,B+,9.0,C+,6.0,2.0,3.0
+"Ghired, Mirror of the Wilds",M,M,B-,7.0,C,5.0,C+,6.0,1.0,1.0
+"Annie Flash, the Veteran",M,M,A-,10.0,A-,10.0,A-,10.0,0.0,0.0
+Blooming Marsh,L,R,B,8.0,C-,4.0,C+,6.0,2.0,2.0
+Botanical Sanctum,L,R,C+,6.0,C-,4.0,C+,6.0,0.0,2.0
+Concealed Courtyard,L,R,B-,7.0,C-,4.0,C+,6.0,1.0,2.0
+Inspiring Vantage,L,R,B,8.0,C-,4.0,C+,6.0,2.0,2.0
+Spirebluff Canal,L,R,B-,7.0,C-,4.0,C+,6.0,1.0,2.0
