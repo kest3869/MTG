@@ -1,4 +1,5 @@
 # MTG
+## Kevin Brar
 A place for data science on magic the gathering content.
 
 ## Reader's Note 
