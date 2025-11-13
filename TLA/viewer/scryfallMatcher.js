@@ -1,5 +1,5 @@
-// This map will hold our 'cardName' -> 'scryfallObject' data
-let scryfallMap = new Map();
+// --- UPDATED: Add 'export' to make the map public ---
+export let scryfallMap = new Map();
 
 /**
  * Loads the scryfall_data.json and builds the internal map.
@@ -38,7 +38,6 @@ export function getImageUrl(cardName) {
     }
 
     try {
-        // --- LOGIC FLIPPED ---
         // 1. Check for DFCs FIRST. This is the most specific case.
         if (scryfallCard.card_faces && scryfallCard.card_faces[0].image_uris) {
             // It's a double-faced card, get the front face

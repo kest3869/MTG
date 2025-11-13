@@ -1,5 +1,6 @@
 // This module exports all functions that build HTML
-import { getImageUrl } from './scryfallMatcher.js';
+// --- UPDATED: Import scryfallMap ---
+import { getImageUrl, scryfallMap } from './scryfallMatcher.js';
 
 // --- WUBRG Color Map ---
 const wubrgColors = {
@@ -18,8 +19,7 @@ const num_to_tier = {
     12: 'A+'
 };
 
-// --- NEW: WUBRGC Sort Order Map ---
-// (Using 'C' for Colorless and 'M' for Multicolored)
+// --- WUBRGC Sort Order Map ---
 const wubrgcOrder = {
     'W': 1,
     'U': 2,
@@ -29,6 +29,9 @@ const wubrgcOrder = {
     'C': 6,
     'M': 7
 };
+
+// --- NEW: Python's color order for matching keys ---
+const PYTHON_COLOR_ORDER = { 'W': 1, 'R': 2, 'B': 3, 'U': 4, 'G': 5 };
 
 // --- Helper function to get the letter grade ---
 function getGroupLetter(groupNum) {
@@ -49,17 +52,15 @@ export function renderColorPairs(colorPairs, container) {
     let html = '<table>';
     html += '<tr><th>Color Pair</th><th>Average Rating</th></tr>';
     
-    // This function already has its own WUBRG sort logic
-    const wubrgOrder = { 'W': 1, 'U': 2, 'B': 3, 'R': 4, 'G': 5 };
-    const getSortValue = (pairStr) => {
-        const [c1, c2] = pairStr.split('/');
-        return wubrgOrder[c1] * 10 + wubrgOrder[c2];
-    };
-    
-    colorPairs.sort((a, b) => getSortValue(a.colors) - getSortValue(b.colors));
+    // --- THE FIX: Sort by average_rating, descending ---
+    // The Python script already does this, but we ensure it here.
+    colorPairs.sort((a, b) => b.average_rating - a.average_rating);
+    // --- END FIX ---
 
     for (const pair of colorPairs) {
-        const [c1, c2] = pair.colors.split('/');
+        // We still need this map to create the WUBRG dots
+        const wubrgDotOrder = { 'W': 1, 'U': 2, 'B': 3, 'R': 4, 'G': 5 };
+        const [c1, c2] = pair.colors.split('/').sort((a, b) => wubrgDotOrder[a] - wubrgDotOrder[b]);
         
         html += `
             <tr>
@@ -104,9 +105,75 @@ export function renderUnratedList(unratedData, container) {
 }
 
 /**
+ * Renders the gallery of Signpost Uncommons (Uncommon + Multicolored).
+ * @param {Array} allCards - The full list of cards from analysis_results.json
+ * @param {Array} raters - The list of rater names
+ * @param {HTMLElement} container - The <div> to put the gallery in
+ * @param {Map} colorPairRankMap - A map from `app.js` (e.g., {'W/G': 0, 'W/U': 1, ...})
+ */
+export function renderSignpostUncommons(allCards, raters, container, colorPairRankMap) { // <-- UPDATED
+    if (!allCards || !raters || allCards.length === 0) {
+        container.innerHTML = "<p>No card data found.</p>";
+        return;
+    }
+
+    const signposts = allCards.filter(card => card.Rarity === 'U' && card.Color === 'M');
+
+    if (signposts.length === 0) {
+        container.innerHTML = "<p>No signpost uncommons found.</p>";
+        return;
+    }
+
+    // --- UPDATED: Sort signposts by the color pair rank map ---
+    const getSortValue = (card) => {
+        const frontFaceName = card.Name.split(/\s*\/\/\s*/)[0];
+        const scryfallCard = scryfallMap.get(frontFaceName);
+        
+        if (scryfallCard && scryfallCard.colors && scryfallCard.colors.length === 2) {
+            // --- THE FIX ---
+            // Sort the Scryfall colors (e.g., ['U', 'R']) using the *Python* list order
+            // This turns ['U', 'R'] into ['R', 'U']
+            const [c1, c2] = scryfallCard.colors.sort((a, b) => PYTHON_COLOR_ORDER[a] - PYTHON_COLOR_ORDER[b]);
+            // This creates the key 'R/U', which matches the map
+            const pairKey = `${c1}/${c2}`;
+            // --- END FIX ---
+
+            // Look up the rank from the map we passed in
+            if (colorPairRankMap && colorPairRankMap.has(pairKey)) {
+                return colorPairRankMap.get(pairKey);
+            }
+        }
+        return 99; // Put cards we can't find at the end
+    };
+
+    signposts.sort((a, b) => getSortValue(a) - getSortValue(b));
+    // --- END UPDATE ---
+
+    let html = '';
+    for (const card of signposts) {
+        const imageUrl = getImageUrl(card.Name);
+        
+        const raterScores = raters.map(rName => 
+            `${rName.charAt(0)}: ${card[rName] || 'N/A'}`
+        ).join(', ');
+
+        html += `
+            <div class="card">
+                <img src="${imageUrl}" alt="${card.Name}">
+                <p class="card-name">${card.Name}</p>
+                <p class="card-stat">Group Avg: ${getGroupLetter(card.Group)} (${card.Group.toFixed(2)})</p>
+                <p class="card-stat rater-scores">Scores: ${raterScores}</p>
+            </div>
+        `;
+    }
+    container.innerHTML = html;
+}
+
+
+/**
  * Renders the gallery of high-variance cards.
  */
-export function renderVarianceCards(varianceCards, container) {
+export function renderVarianceCards(varianceCards, container, fullCardDataMap, raters) {
     if (!varianceCards || varianceCards.length === 0) {
         container.innerHTML = "<p>No variance data found.</p>";
         return;
@@ -116,12 +183,23 @@ export function renderVarianceCards(varianceCards, container) {
     for (const card of varianceCards) {
         const imageUrl = getImageUrl(card.Name);
         
+        let raterScores = '';
+        if (fullCardDataMap && raters) {
+            const fullCard = fullCardDataMap.get(card.Name);
+            if (fullCard) {
+                raterScores = raters.map(rName => 
+                    `${rName.charAt(0)}: ${fullCard[rName] || 'N/A'}`
+                ).join(', ');
+            }
+        }
+
         html += `
             <div class="card">
                 <img src="${imageUrl}" alt="${card.Name}">
                 <p class="card-name">${card.Name}</p>
                 <p class="card-stat">Variance: ${card.Variance.toFixed(2)}</p>
                 <p class="card-stat">Group Avg: ${getGroupLetter(card.Group)} (${card.Group.toFixed(2)})</p>
+                <p class="card-stat rater-scores">Scores: ${raterScores}</p>
             </div>
         `;
     }
@@ -137,22 +215,18 @@ export function renderTopCommons(topCommons, container) {
         return;
     }
 
-    // --- NEW: Sort the array by WUBRGC order ---
     topCommons.sort((a, b) => wubrgcOrder[a.Color] - wubrgcOrder[b.Color]);
 
     let html = '';
-    let currentColor = null; // --- HACKY FIX: Track current color ---
+    let currentColor = null; 
 
     for (const card of topCommons) {
-        // --- HACKY FIX: Check if color is changing ---
         if (card.Color !== currentColor) {
             if (currentColor !== null) {
-                // If this isn't the first card, add a row break
                 html += '<div class="gallery-group-break"></div>';
             }
             currentColor = card.Color;
         }
-        // --- END FIX ---
 
         const imageUrl = getImageUrl(card.Name);
         
@@ -176,21 +250,18 @@ export function renderTopUncommons(topUncommons, container) {
         return;
     }
 
-    // --- NEW: Sort the array by WUBRGC order ---
     topUncommons.sort((a, b) => wubrgcOrder[a.Color] - wubrgcOrder[b.Color]);
 
     let html = '';
-    let currentColor = null; // --- HACKY FIX: Track current color ---
+    let currentColor = null; 
 
     for (const card of topUncommons) {
-        // --- HACKY FIX: Check if color is changing ---
         if (card.Color !== currentColor) {
             if (currentColor !== null) {
                 html += '<div class="gallery-group-break"></div>';
             }
             currentColor = card.Color;
         }
-        // --- END FIX ---
 
         const imageUrl = getImageUrl(card.Name);
         
@@ -214,21 +285,18 @@ export function renderTopRares(topRares, container) {
         return;
     }
 
-    // --- NEW: Sort the array by WUBRGC order ---
     topRares.sort((a, b) => wubrgcOrder[a.Color] - wubrgcOrder[b.Color]);
 
     let html = '';
-    let currentColor = null; // --- HACKY FIX: Track current color ---
+    let currentColor = null; 
 
     for (const card of topRares) {
-        // --- HACKY FIX: Check if color is changing ---
         if (card.Color !== currentColor) {
             if (currentColor !== null) {
                 html += '<div class="gallery-group-break"></div>';
             }
             currentColor = card.Color;
         }
-        // --- END FIX ---
         
         const imageUrl = getImageUrl(card.Name);
         
@@ -252,21 +320,18 @@ export function renderTopMythics(topMythics, container) {
         return;
     }
 
-    // --- NEW: Sort the array by WUBRGC order ---
     topMythics.sort((a, b) => wubrgcOrder[a.Color] - wubrgcOrder[b.Color]);
 
     let html = '';
-    let currentColor = null; // --- HACKY FIX: Track current color ---
+    let currentColor = null; 
 
     for (const card of topMythics) {
-        // --- HACKY FIX: Check if color is changing ---
         if (card.Color !== currentColor) {
             if (currentColor !== null) {
                 html += '<div class="gallery-group-break"></div>';
             }
             currentColor = card.Color;
         }
-        // --- END FIX ---
 
         const imageUrl = getImageUrl(card.Name);
         
@@ -308,12 +373,108 @@ export function renderHotTakes(hotTakesData, raters, container) {
                     <p class="card-name">${take.Name}</p>
                     <p class="card-stat hot-take-value">
                         ${rater}'s Take: +${take[rater + '_Hot_Take'].toFixed(2)}
-                    </D>
+                    </p>
                     <p class="card-stat">Group Avg: ${getGroupLetter(take.Group)} (${take.Group.toFixed(2)})</p>
                     <p class="card-stat rater-scores">Scores: ${raterScores}</p>
                 </div>
             `;
         }
+    }
+    container.innerHTML = html;
+}
+
+/**
+ * Renders the gallery of bottom 3 commons by color.
+ */
+export function renderBottomCommons(bottomCommons, container) {
+    if (!bottomCommons || bottomCommons.length === 0) {
+        container.innerHTML = "<p>No bottom common data found.</p>";
+        return;
+    }
+
+    // Sort the array by WUBRGC order
+    bottomCommons.sort((a, b) => wubrgcOrder[a.Color] - wubrgcOrder[b.Color]);
+
+    let html = '';
+    let currentColor = null; 
+
+    for (const card of bottomCommons) {
+        if (card.Color !== currentColor) {
+            if (currentColor !== null) {
+                html += '<div class="gallery-group-break"></div>';
+            }
+            currentColor = card.Color;
+        }
+
+        const imageUrl = getImageUrl(card.Name);
+        
+        html += `
+            <div class="card">
+                <img src="${imageUrl}" alt="${card.Name}">
+                <p class="card-name">${card.Name}</p>
+                <p class="card-stat">Group Avg: ${getGroupLetter(card.Group)} (${card.Group.toFixed(2)})</p>
+            </div>
+        `;
+    }
+    container.innerHTML = html;
+}
+
+/**
+ * Renders the gallery of bottom 3 uncommons by color.
+ */
+export function renderBottomUncommons(bottomUncommons, container) {
+    if (!bottomUncommons || bottomUncommons.length === 0) {
+        container.innerHTML = "<p>No bottom uncommon data found.</p>";
+        return;
+    }
+
+    // Sort the array by WUBRGC order
+    bottomUncommons.sort((a, b) => wubrgcOrder[a.Color] - wubrgcOrder[b.Color]);
+
+    let html = '';
+    let currentColor = null; 
+
+    for (const card of bottomUncommons) {
+        if (card.Color !== currentColor) {
+            if (currentColor !== null) {
+                html += '<div class="gallery-group-break"></div>';
+            }
+            currentColor = card.Color;
+        }
+
+        const imageUrl = getImageUrl(card.Name);
+        
+        html += `
+            <div class="card">
+                <img src="${imageUrl}" alt="${card.Name}">
+                <p class="card-name">${card.Name}</p>
+                <p class="card-stat">Group Avg: ${getGroupLetter(card.Group)} (${card.Group.toFixed(2)})</p>
+            </div>
+        `;
+    }
+    container.innerHTML = html;
+}
+
+/**
+ * Renders the gallery of bottom 3 cards overall.
+ */
+export function renderBottomOverall(bottomOverall, container) {
+    if (!bottomOverall || bottomOverall.length === 0) {
+        container.innerHTML = "<p>No bottom overall data found.</p>";
+        return;
+    }
+
+    let html = '';
+    for (const card of bottomOverall) {
+        const imageUrl = getImageUrl(card.Name);
+        
+        html += `
+            <div class="card">
+                <img src="${imageUrl}" alt="${card.Name}">
+                <p class="card-name">${card.Name}</p>
+                <p class="card-stat">Group Avg: ${getGroupLetter(card.Group)} (${card.Group.toFixed(2)})</p>
+            </div>
+        `;
     }
     container.innerHTML = html;
 }

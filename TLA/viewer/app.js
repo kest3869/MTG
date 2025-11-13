@@ -3,12 +3,16 @@ import { init as initScryfallMatcher } from './scryfallMatcher.js';
 import {
     renderColorPairs,
     renderUnratedList,
+    renderSignpostUncommons, 
     renderVarianceCards,
     renderTopCommons,
-    renderTopUncommons,  // <-- NEW
+    renderTopUncommons,
     renderHotTakes,
     renderTopRares,
-    renderTopMythics
+    renderTopMythics,
+    renderBottomCommons,
+    renderBottomUncommons,
+    renderBottomOverall
 } from './renderUtils.js';
 
 
@@ -28,7 +32,18 @@ async function initializeApp() {
         // --- B: Load the main analysis data
         const analysisData = await fetch('../analysis_results.json').then(res => res.json());
 
-        // --- C: Call all the render functions from our utils file
+        // --- C: Create a lookup map from the 'all_cards' list
+        const fullCardDataMap = new Map(analysisData.all_cards.map(card => [card.Name, card]));
+
+        // --- NEW: Create a sort order map from the color pair data ---
+        // This list is already sorted by descending rating from Python
+        const colorPairRankMap = new Map();
+        analysisData.color_pair_averages.forEach((pair, index) => {
+            colorPairRankMap.set(pair.colors, index); // e.g., {'W/G': 0, 'W/U': 1, ...}
+        });
+        // --- END NEW ---
+
+        // --- D: Call all the render functions from our utils file
         renderColorPairs(
             analysisData.color_pair_averages, 
             document.getElementById('color-pairs-table')
@@ -37,15 +52,25 @@ async function initializeApp() {
             analysisData.unrated_cards,
             document.getElementById('unrated-list')
         );
+
+        // --- UPDATED: Pass the new rank map ---
+        renderSignpostUncommons(
+            analysisData.all_cards,
+            analysisData.raters,
+            document.getElementById('signpost-uncommons'),
+            colorPairRankMap // Pass the new map here
+        );
+
         renderVarianceCards(
             analysisData.top_15_variance,
-            document.getElementById('variance-cards')
+            document.getElementById('variance-cards'),
+            fullCardDataMap,
+            analysisData.raters
         );
         renderTopCommons(
             analysisData.top_3_commons_by_color,
             document.getElementById('top-commons')
         );
-        // --- NEW: Added renderTopUncommons ---
         renderTopUncommons(
             analysisData.top_3_uncommons_by_color,
             document.getElementById('top-uncommons')
@@ -63,8 +88,20 @@ async function initializeApp() {
             analysisData.raters,
             document.getElementById('hot-takes')
         );
+        renderBottomCommons(
+            analysisData.bottom_3_commons_by_color,
+            document.getElementById('bottom-commons')
+        );
+        renderBottomUncommons(
+            analysisData.bottom_3_uncommons_by_color,
+            document.getElementById('bottom-uncommons')
+        );
+        renderBottomOverall(
+            analysisData.bottom_3_overall,
+            document.getElementById('bottom-overall')
+        );
 
-        // --- D: Hide loading message
+        // --- E: Hide loading message
         loadingElement.style.display = 'none';
 
     } catch (error) {
