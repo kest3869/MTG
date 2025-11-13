@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG Set Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>MTG Set Analysis Dashboard</h1>
+        
+        <h2 id="loading-state">Loading analysis data...</h2>
+
+        <section id="color-section">
+            <h2>Color Pair Averages</h2>
+            <div id="color-pairs-table"></div>
+        </section>
+
+        <section id="variance-section">
+            <h2>Top 15 Most Contentious Cards (Highest Variance)</h2>
+            <div id="variance-cards" class="card-gallery"></div>
+        </section>
+        
+        <section id="hot-takes-section">
+            <h2>Rater Hot Takes</h2>
+            <div id="hot-takes" class="card-gallery"></div>
+        </section>
+
+        <section id="top-commons-section">
+            <h2>Top 3 Commons by Color</h2>
+            <div id="top-commons" class="card-gallery"></div>
+        </section>
+
+        <section id="top-uncommons-section">
+            <h2>Top 3 Uncommons by Color</h2>
+            <div id="top-uncommons" class="card-gallery"></div>
+        </section>
+        <section id="top-rares-section">
+            <h2>Top 3 Rares by Color</h2>
+            <div id="top-rares" class="card-gallery"></div>
+        </section>
+        
+        <section id="top-mythics-section">
+            <h2>Top 3 Mythics by Color</h2>
+            <div id="top-mythics" class="card-gallery"></div>
+        </section>
+        
+        <section id="unrated-section">
+            <h2>Unrated Cards (By Rater)</h2>
+            <div id="unrated-list"></div>
+        </section>
+
+    </div>
+</body>
+</html>

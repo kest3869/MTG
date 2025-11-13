@@ -1,0 +1,119 @@
+/* Basic setup */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Card Gallery Styling */
+.card-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+}
+
+.card {
+    width: 200px; 
+    max-width: 100%; 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-name {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 10px 0 5px 0;
+}
+
+.card-stat {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+}
+
+/* For WUBRG dots */
+.color-dot-container {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.color-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #555;
+}
+
+
+/* Simple list for unrated cards */
+ul {
+    padding-left: 20px;
+}
+
+/* Styles for Hot Takes cards */
+.hot-take-value {
+    font-weight: bold;
+    color: #c0392b; /* A 'hot' color */
+    font-size: 1em !important;
+}
+
+.rater-scores {
+    font-size: 0.8em !important;
+    color: #333;
+    margin-top: 5px !important;
+}
+
+/* --- NEW HACKY FIX --- */
+/* This element will span all 3 columns and have 0 height, */
+/* forcing the grid to start a new row. */
+.gallery-group-break {
+    grid-column: 1 / -1; /* Span from first to last column line */
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+/* --- END FIX --- */
