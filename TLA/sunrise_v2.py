@@ -1,5 +1,5 @@
 # raters
-raters = ['Kevin', 'Nate', "Jon"]
+raters = ['Kevin', 'Nate', "Jon", 'Josh']
 
 import pandas as pd
 from itertools import combinations

@@ -12,7 +12,8 @@ import {
     renderTopMythics,
     renderBottomCommons,
     renderBottomUncommons,
-    renderBottomOverall
+    renderBottomOverall,
+    renderFullSetReview // <-- NEW
 } from './renderUtils.js';
 
 
@@ -35,15 +36,13 @@ async function initializeApp() {
         // --- C: Create a lookup map from the 'all_cards' list
         const fullCardDataMap = new Map(analysisData.all_cards.map(card => [card.Name, card]));
 
-        // --- NEW: Create a sort order map from the color pair data ---
-        // This list is already sorted by descending rating from Python
+        // --- D: Create a sort order map from the color pair data ---
         const colorPairRankMap = new Map();
         analysisData.color_pair_averages.forEach((pair, index) => {
             colorPairRankMap.set(pair.colors, index); // e.g., {'W/G': 0, 'W/U': 1, ...}
         });
-        // --- END NEW ---
 
-        // --- D: Call all the render functions from our utils file
+        // --- E: Call all the render functions from our utils file
         renderColorPairs(
             analysisData.color_pair_averages, 
             document.getElementById('color-pairs-table')
@@ -52,15 +51,12 @@ async function initializeApp() {
             analysisData.unrated_cards,
             document.getElementById('unrated-list')
         );
-
-        // --- UPDATED: Pass the new rank map ---
         renderSignpostUncommons(
             analysisData.all_cards,
             analysisData.raters,
             document.getElementById('signpost-uncommons'),
-            colorPairRankMap // Pass the new map here
+            colorPairRankMap
         );
-
         renderVarianceCards(
             analysisData.top_15_variance,
             document.getElementById('variance-cards'),
@@ -101,7 +97,15 @@ async function initializeApp() {
             document.getElementById('bottom-overall')
         );
 
-        // --- E: Hide loading message
+        // --- NEW: Render Full Set Review ---
+        renderFullSetReview(
+            analysisData.all_cards,
+            analysisData.raters,
+            document.getElementById('full-set-review')
+        );
+        // --- END NEW ---
+
+        // --- F: Hide loading message
         loadingElement.style.display = 'none';
 
     } catch (error) {

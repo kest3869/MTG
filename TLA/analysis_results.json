@@ -2,140 +2,137 @@
     "raters": [
         "Kevin",
         "Nate",
-        "Jon"
+        "Jon",
+        "Josh"
     ],
     "unrated_cards": {
         "Kevin": [],
         "Nate": [],
-        "Jon": []
+        "Jon": [],
+        "Josh": []
     },
     "color_pair_averages": [
         {
             "colors": "W/G",
-            "average_rating": 5.63
-        },
-        {
-            "colors": "W/U",
             "average_rating": 5.55
         },
         {
             "colors": "W/R",
-            "average_rating": 5.52
+            "average_rating": 5.47
+        },
+        {
+            "colors": "W/U",
+            "average_rating": 5.46
         },
         {
             "colors": "W/B",
-            "average_rating": 5.45
-        },
-        {
-            "colors": "U/G",
-            "average_rating": 5.31
+            "average_rating": 5.37
         },
         {
             "colors": "R/G",
-            "average_rating": 5.28
+            "average_rating": 5.24
+        },
+        {
+            "colors": "U/G",
+            "average_rating": 5.23
         },
         {
             "colors": "R/U",
-            "average_rating": 5.21
+            "average_rating": 5.16
         },
         {
             "colors": "B/G",
-            "average_rating": 5.21
-        },
-        {
-            "colors": "B/U",
             "average_rating": 5.14
         },
         {
             "colors": "R/B",
-            "average_rating": 5.11
+            "average_rating": 5.07
+        },
+        {
+            "colors": "B/U",
+            "average_rating": 5.06
         }
     ],
     "top_3_commons_by_color": [
         {
             "Name": "Sold Out",
             "Color": "B",
-            "Group": 6.666666666666667
+            "Group": 6.5
         },
         {
-            "Name": "Swampsnare Trap",
+            "Name": "Corrupt Court Official",
             "Color": "B",
             "Group": 5.0
         },
         {
-            "Name": "Callous Inspector",
+            "Name": "Deadly Precision",
             "Color": "B",
-            "Group": 4.666666666666667
-        },
-        {
-            "Name": "Aang's Journey",
-            "Color": "C",
-            "Group": 4.0
+            "Group": 4.75
         },
         {
             "Name": "Rumble Arena",
             "Color": "C",
-            "Group": 4.0
+            "Group": 4.5
         },
         {
-            "Name": "Barrels of Blasting Jelly",
+            "Name": "Aang's Journey",
             "Color": "C",
-            "Group": 3.3333333333333335
+            "Group": 4.25
+        },
+        {
+            "Name": "Zuko's Exile",
+            "Color": "C",
+            "Group": 3.75
         },
         {
             "Name": "Rocky Rebuke",
             "Color": "G",
-            "Group": 6.666666666666667
+            "Group": 6.75
         },
         {
             "Name": "Badgermole",
             "Color": "G",
-            "Group": 6.0
+            "Group": 5.75
         },
         {
-            "Name": "Ostrich-Horse",
+            "Name": "Raucous Audience",
             "Color": "G",
-            "Group": 6.0
+            "Group": 5.75
         },
         {
             "Name": "Serpent's Pass",
             "Color": "M",
-            "Group": 5.666666666666667
+            "Group": 5.75
         },
         {
             "Name": "Sun-Blessed Peak",
             "Color": "M",
-            "Group": 5.666666666666667
+            "Group": 5.75
         },
         {
             "Name": "Airship Engine Room",
             "Color": "M",
-            "Group": 5.333333333333333
+            "Group": 5.5
         },
         {
             "Name": "Lightning Strike",
             "Color": "R",
-            "Group": 8.0
+            "Group": 7.75
         },
         {
             "Name": "Firebending Lesson",
             "Color": "R",
-            "Group": 6.333333333333333
+            "Group": 6.75
         },
         {
             "Name": "Treetop Freedom Fighters",
             "Color": "R",
-            "Group": 6.333333333333333
+            "Group": 6.0
         },
         {
             "Name": "Forecasting Fortune Teller",
             "Color": "U",
-            "Group": 6.666666666666667
-        },
-        {
-            "Name": "Rowdy Snowballers",
-            "Color": "U",
-            "Group": 5.333333333333333
+            "Group": 6.25
         },
         {
             "Name": "Iguana Parrot",
@@ -143,51 +140,56 @@
             "Group": 5.0
         },
         {
-            "Name": "Kyoshi Warriors",
-            "Color": "W",
-            "Group": 6.333333333333333
+            "Name": "It'll Quench Ya!",
+            "Color": "U",
+            "Group": 5.0
         },
         {
-            "Name": "Path to Redemption",
+            "Name": "Kyoshi Warriors",
             "Color": "W",
-            "Group": 5.666666666666667
+            "Group": 6.25
         },
         {
             "Name": "Airbending Lesson",
             "Color": "W",
-            "Group": 5.333333333333333
+            "Group": 5.5
+        },
+        {
+            "Name": "Path to Redemption",
+            "Color": "W",
+            "Group": 5.5
         }
     ],
     "top_3_uncommons_by_color": [
+        {
+            "Name": "Heartless Act",
+            "Color": "B",
+            "Group": 7.25
+        },
         {
             "Name": "Azula, On the Hunt",
             "Color": "B",
             "Group": 7.0
         },
         {
-            "Name": "Heartless Act",
-            "Color": "B",
-            "Group": 7.0
-        },
-        {
             "Name": "Epic Downfall",
             "Color": "B",
-            "Group": 6.333333333333333
+            "Group": 6.75
         },
         {
             "Name": "Meteor Sword",
             "Color": "C",
-            "Group": 5.333333333333333
-        },
-        {
-            "Name": "Fire Nation Warship",
-            "Color": "C",
-            "Group": 4.333333333333333
+            "Group": 5.0
         },
         {
             "Name": "White Lotus Hideout",
             "Color": "C",
-            "Group": 4.333333333333333
+            "Group": 4.25
+        },
+        {
+            "Name": "Fire Nation Warship",
+            "Color": "C",
+            "Group": 4.0
         },
         {
             "Name": "Toph, the Blind Bandit",
@@ -197,70 +199,70 @@
         {
             "Name": "Allies at Last",
             "Color": "G",
-            "Group": 7.666666666666667
+            "Group": 7.75
         },
         {
             "Name": "Earth Kingdom General",
             "Color": "G",
-            "Group": 6.666666666666667
+            "Group": 6.5
         },
         {
             "Name": "Suki, Kyoshi Warrior",
             "Color": "M",
-            "Group": 7.333333333333333
-        },
-        {
-            "Name": "Dai Li Agents",
-            "Color": "M",
-            "Group": 7.0
+            "Group": 7.5
         },
         {
             "Name": "Sun Warriors",
             "Color": "M",
-            "Group": 7.0
+            "Group": 7.5
         },
         {
-            "Name": "The Cave of Two Lovers",
-            "Color": "R",
-            "Group": 7.333333333333333
+            "Name": "Cruel Administrator",
+            "Color": "M",
+            "Group": 6.75
         },
         {
-            "Name": "Combustion Technique",
+            "Name": "Fire Nation Attacks",
             "Color": "R",
-            "Group": 7.0
+            "Group": 7.25
         },
         {
             "Name": "Combustion Man",
             "Color": "R",
-            "Group": 6.666666666666667
+            "Group": 6.75
+        },
+        {
+            "Name": "Combustion Technique",
+            "Color": "R",
+            "Group": 6.75
         },
         {
             "Name": "Katara, Bending Prodigy",
             "Color": "U",
-            "Group": 7.666666666666667
+            "Group": 7.5
         },
         {
             "Name": "Knowledge Seeker",
             "Color": "U",
-            "Group": 7.333333333333333
+            "Group": 7.25
         },
         {
             "Name": "Benevolent River Spirit",
             "Color": "U",
-            "Group": 7.0
+            "Group": 6.75
         },
         {
             "Name": "Earth Kingdom Jailer",
             "Color": "W",
-            "Group": 7.666666666666667
+            "Group": 7.25
         },
         {
             "Name": "Aang, the Last Airbender",
             "Color": "W",
-            "Group": 7.333333333333333
+            "Group": 7.0
         },
         {
-            "Name": "Master Piandao",
+            "Name": "Invasion Reinforcements",
             "Color": "W",
             "Group": 7.0
         }
@@ -269,42 +271,42 @@
         {
             "Name": "Raven Eagle",
             "Color": "B",
-            "Group": 7.666666666666667
+            "Group": 7.5
         },
         {
             "Name": "The Fire Nation Drill",
             "Color": "B",
-            "Group": 7.666666666666667
+            "Group": 7.5
         },
         {
             "Name": "Obsessive Pursuit",
             "Color": "B",
-            "Group": 7.333333333333333
+            "Group": 7.25
         },
         {
             "Name": "Jasmine Dragon Tea Shop",
             "Color": "C",
-            "Group": 6.333333333333333
+            "Group": 6.25
         },
         {
             "Name": "Secret Tunnel",
             "Color": "C",
-            "Group": 4.666666666666667
+            "Group": 4.5
         },
         {
             "Name": "The Earth King",
             "Color": "G",
-            "Group": 9.666666666666666
+            "Group": 9.75
         },
         {
             "Name": "Earthbender Ascension",
             "Color": "G",
-            "Group": 8.666666666666666
+            "Group": 8.25
         },
         {
             "Name": "Ba Sing Se",
             "Color": "G",
-            "Group": 7.666666666666667
+            "Group": 7.5
         },
         {
             "Name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
@@ -314,42 +316,42 @@
         {
             "Name": "Fire Lord Azula",
             "Color": "M",
-            "Group": 8.333333333333334
+            "Group": 9.0
         },
         {
             "Name": "Aang, at the Crossroads // Aang, Destined Savior",
             "Color": "M",
-            "Group": 8.0
+            "Group": 8.75
         },
         {
             "Name": "Ran and Shaw",
             "Color": "R",
-            "Group": 8.0
+            "Group": 8.25
         },
         {
             "Name": "Firebender Ascension",
             "Color": "R",
-            "Group": 7.0
+            "Group": 7.5
         },
         {
-            "Name": "The Last Agni Kai",
+            "Name": "Wartime Protestors",
             "Color": "R",
-            "Group": 6.666666666666667
-        },
-        {
-            "Name": "The Mechanist, Aerial Artisan",
-            "Color": "U",
-            "Group": 8.333333333333334
+            "Group": 7.25
         },
         {
             "Name": "The Unagi of Kyoshi Island",
             "Color": "U",
-            "Group": 7.666666666666667
+            "Group": 8.0
+        },
+        {
+            "Name": "The Mechanist, Aerial Artisan",
+            "Color": "U",
+            "Group": 7.5
         },
         {
             "Name": "Agna Qel'a",
             "Color": "U",
-            "Group": 7.333333333333333
+            "Group": 7.0
         },
         {
             "Name": "Avatar's Wrath",
@@ -359,39 +361,39 @@
         {
             "Name": "Abandoned Air Temple",
             "Color": "W",
-            "Group": 8.333333333333334
+            "Group": 8.25
         },
         {
             "Name": "Hakoda, Selfless Commander",
             "Color": "W",
-            "Group": 8.0
+            "Group": 7.75
         }
     ],
     "top_3_mythics_by_color": [
         {
             "Name": "The Rise of Sozin // Fire Lord Sozin",
             "Color": "B",
-            "Group": 9.333333333333334
+            "Group": 9.5
         },
         {
             "Name": "Koh, the Face Stealer",
             "Color": "B",
-            "Group": 9.0
+            "Group": 9.25
         },
         {
             "Name": "Phoenix Fleet Airship",
             "Color": "B",
-            "Group": 5.333333333333333
+            "Group": 6.5
         },
         {
             "Name": "Planetarium of Wan Shi Tong",
             "Color": "C",
-            "Group": 6.666666666666667
+            "Group": 5.25
         },
         {
             "Name": "White Lotus Tile",
             "Color": "C",
-            "Group": 3.0
+            "Group": 2.5
         },
         {
             "Name": "The Walls of Ba Sing Se",
@@ -401,129 +403,129 @@
         {
             "Name": "Badgermole Cub",
             "Color": "G",
-            "Group": 8.0
+            "Group": 8.5
         },
         {
             "Name": "The Legend of Kyoshi // Avatar Kyoshi",
             "Color": "G",
-            "Group": 7.333333333333333
+            "Group": 8.0
         },
         {
             "Name": "Bumi, Unleashed",
             "Color": "M",
-            "Group": 10.0
+            "Group": 10.25
         },
         {
             "Name": "Ozai, the Phoenix King",
             "Color": "M",
-            "Group": 9.0
+            "Group": 9.75
         },
         {
             "Name": "Avatar Aang // Aang, Master of Elements",
             "Color": "M",
-            "Group": 7.333333333333333
+            "Group": 7.5
         },
         {
             "Name": "The Legend of Roku // Avatar Roku",
             "Color": "R",
-            "Group": 8.666666666666666
+            "Group": 9.0
         },
         {
             "Name": "Fated Firepower",
             "Color": "R",
-            "Group": 2.6666666666666665
+            "Group": 4.5
         },
         {
             "Name": "Sozin's Comet",
             "Color": "R",
-            "Group": 2.6666666666666665
+            "Group": 2.75
         },
         {
             "Name": "Wan Shi Tong, Librarian",
             "Color": "U",
-            "Group": 9.666666666666666
+            "Group": 10.0
         },
         {
             "Name": "The Legend of Kuruk // Avatar Kuruk",
             "Color": "U",
-            "Group": 9.0
+            "Group": 8.5
         },
         {
             "Name": "Secret of Bloodbending",
             "Color": "U",
-            "Group": 2.3333333333333335
+            "Group": 1.75
         },
         {
             "Name": "Appa, Steadfast Guardian",
             "Color": "W",
-            "Group": 9.333333333333334
+            "Group": 9.75
         },
         {
             "Name": "United Front",
             "Color": "W",
-            "Group": 9.0
+            "Group": 9.75
         },
         {
             "Name": "The Legend of Yangchen // Avatar Yangchen",
             "Color": "W",
-            "Group": 7.0
+            "Group": 6.75
         }
     ],
     "bottom_3_commons_by_color": [
         {
+            "Name": "Foggy Swamp Hunters",
+            "Color": "B",
+            "Group": 2.5
+        },
+        {
             "Name": "Hog-Monkey",
             "Color": "B",
-            "Group": 2.6666666666666665
+            "Group": 2.5
         },
         {
             "Name": "Azula Always Lies",
             "Color": "B",
-            "Group": 3.0
-        },
-        {
-            "Name": "Foggy Swamp Hunters",
-            "Color": "B",
-            "Group": 3.0
+            "Group": 2.75
         },
         {
             "Name": "Kyoshi Battle Fan",
             "Color": "C",
-            "Group": 3.0
+            "Group": 3.25
         },
         {
             "Name": "Barrels of Blasting Jelly",
             "Color": "C",
-            "Group": 3.3333333333333335
+            "Group": 3.5
         },
         {
             "Name": "Bender's Waterskin",
             "Color": "C",
-            "Group": 3.3333333333333335
+            "Group": 3.5
         },
         {
             "Name": "Turtle-Duck",
             "Color": "G",
-            "Group": 1.3333333333333333
+            "Group": 1.5
         },
         {
             "Name": "Cycle of Renewal",
             "Color": "G",
-            "Group": 2.6666666666666665
+            "Group": 2.25
         },
         {
             "Name": "Earthbending Lesson",
             "Color": "G",
-            "Group": 2.6666666666666665
+            "Group": 2.75
         },
         {
             "Name": "Platypus-Bear",
             "Color": "M",
-            "Group": 2.0
+            "Group": 2.25
         },
         {
             "Name": "Cat-Owl",
             "Color": "M",
-            "Group": 3.6666666666666665
+            "Group": 3.75
         },
         {
             "Name": "Vindictive Warden",
@@ -533,17 +535,22 @@
         {
             "Name": "Fire Nation Cadets",
             "Color": "R",
-            "Group": 3.0
+            "Group": 2.75
         },
         {
             "Name": "Fire Nation Raider",
             "Color": "R",
-            "Group": 3.3333333333333335
+            "Group": 2.75
         },
         {
-            "Name": "Cunning Maneuver",
+            "Name": "Boar-q-pine",
             "Color": "R",
-            "Group": 3.6666666666666665
+            "Group": 3.75
+        },
+        {
+            "Name": "Otter-Penguin",
+            "Color": "U",
+            "Group": 2.75
         },
         {
             "Name": "Flexible Waterbender",
@@ -551,134 +558,129 @@
             "Group": 3.0
         },
         {
-            "Name": "Geyser Leaper",
+            "Name": "First-Time Flyer",
             "Color": "U",
-            "Group": 3.0
-        },
-        {
-            "Name": "Otter-Penguin",
-            "Color": "U",
-            "Group": 3.0
+            "Group": 3.5
         },
         {
             "Name": "Curious Farm Animals",
             "Color": "W",
-            "Group": 3.0
+            "Group": 3.25
+        },
+        {
+            "Name": "Rabaroo Troop",
+            "Color": "W",
+            "Group": 3.5
         },
         {
             "Name": "Yip Yip!",
             "Color": "W",
-            "Group": 3.3333333333333335
-        },
-        {
-            "Name": "Avatar Enthusiasts",
-            "Color": "W",
-            "Group": 4.0
+            "Group": 3.75
         }
     ],
     "bottom_3_uncommons_by_color": [
         {
             "Name": "Northern Air Temple",
             "Color": "B",
-            "Group": 1.3333333333333333
-        },
-        {
-            "Name": "Buzzard-Wasp Colony",
-            "Color": "B",
-            "Group": 3.0
+            "Group": 1.0
         },
         {
             "Name": "Lo and Li, Twin Tutors",
             "Color": "B",
-            "Group": 3.0
+            "Group": 2.25
+        },
+        {
+            "Name": "Buzzard-Wasp Colony",
+            "Color": "B",
+            "Group": 2.5
         },
         {
             "Name": "Trusty Boomerang",
             "Color": "C",
-            "Group": 2.0
+            "Group": 1.5
         },
         {
             "Name": "Energybending",
             "Color": "C",
-            "Group": 4.0
+            "Group": 3.25
         },
         {
             "Name": "Fire Nation Warship",
             "Color": "C",
-            "Group": 4.333333333333333
+            "Group": 4.0
         },
         {
             "Name": "Kyoshi Island Plaza",
             "Color": "G",
-            "Group": 1.3333333333333333
+            "Group": 1.0
         },
         {
             "Name": "Sparring Dummy",
             "Color": "G",
-            "Group": 3.0
+            "Group": 2.25
         },
         {
             "Name": "Invasion Tactics",
             "Color": "G",
-            "Group": 4.0
+            "Group": 3.75
         },
         {
             "Name": "Professor Zei, Anthropologist",
             "Color": "M",
-            "Group": 3.6666666666666665
+            "Group": 3.0
         },
         {
             "Name": "Air Nomad Legacy",
             "Color": "M",
-            "Group": 4.0
+            "Group": 3.5
         },
         {
-            "Name": "Tolls of War",
+            "Name": "Guru Pathik",
             "Color": "M",
             "Group": 5.0
         },
         {
             "Name": "Crescent Island Temple",
             "Color": "R",
-            "Group": 2.3333333333333335
+            "Group": 2.0
         },
         {
             "Name": "Price of Freedom",
             "Color": "R",
-            "Group": 2.6666666666666665
+            "Group": 2.0
         },
         {
-            "Name": "Jet's Brainwashing",
+            "Name": "Tiger-Dillo",
             "Color": "R",
-            "Group": 3.3333333333333335
-        },
-        {
-            "Name": "Master Pakku",
-            "Color": "U",
-            "Group": 2.3333333333333335
+            "Group": 3.5
         },
         {
             "Name": "Teo, Spirited Glider",
             "Color": "U",
-            "Group": 3.3333333333333335
+            "Group": 3.0
         },
         {
-            "Name": "Sokka's Haiku",
+            "Name": "Master Pakku",
             "Color": "U",
-            "Group": 4.0
+            "Group": 3.25
+        },
+        {
+            "Name": "The Spirit Oasis",
+            "Color": "U",
+            "Group": 3.25
+        },
+        {
+            "Name": "Southern Air Temple",
+            "Color": "W",
+            "Group": 3.25
         },
         {
             "Name": "Vengeful Villagers",
             "Color": "W",
-            "Group": 3.3333333333333335
+            "Group": 3.25
         },
         {
-            "Name": "Fancy Footwork",
-            "Color": "W",
-            "Group": 4.0
-        },
-        {
-            "Name": "Southern Air Temple",
+            "Name": "Gather the White Lotus",
             "Color": "W",
             "Group": 4.0
         }
@@ -689,168 +691,206 @@
             "Group": 0.0
         },
         {
-            "Name": "Turtle-Duck",
-            "Group": 1.3333333333333333
+            "Name": "Kyoshi Island Plaza",
+            "Group": 1.0
         },
         {
-            "Name": "Kyoshi Island Plaza",
-            "Group": 1.3333333333333333
+            "Name": "Northern Air Temple",
+            "Group": 1.0
         }
     ],
     "top_15_variance": [
         {
-            "Name": "Avatar Destiny",
-            "Variance": 13.0,
-            "Group": 5.0
+            "Name": "Fated Firepower",
+            "Variance": 19.666666666666668,
+            "Group": 4.5
         },
         {
             "Name": "Phoenix Fleet Airship",
-            "Variance": 12.333333333333334,
-            "Group": 5.333333333333333
+            "Variance": 13.666666666666666,
+            "Group": 6.5
         },
         {
             "Name": "Iroh, Grand Lotus",
-            "Variance": 12.0,
-            "Group": 7.0
+            "Variance": 10.25,
+            "Group": 7.75
         },
         {
-            "Name": "Invasion Tactics",
-            "Variance": 12.0,
-            "Group": 4.0
+            "Name": "Planetarium of Wan Shi Tong",
+            "Variance": 8.916666666666666,
+            "Group": 5.25
         },
         {
-            "Name": "Zuko, Conflicted",
-            "Variance": 10.333333333333334,
-            "Group": 5.666666666666667
-        },
-        {
-            "Name": "Fated Firepower",
-            "Variance": 9.333333333333334,
-            "Group": 2.6666666666666665
-        },
-        {
-            "Name": "The Legend of Kyoshi // Avatar Kyoshi",
-            "Variance": 9.333333333333334,
-            "Group": 7.333333333333333
-        },
-        {
-            "Name": "The Legend of Yangchen // Avatar Yangchen",
-            "Variance": 9.0,
-            "Group": 7.0
-        },
-        {
-            "Name": "Tiger-Seal",
-            "Variance": 8.333333333333332,
-            "Group": 1.6666666666666667
-        },
-        {
-            "Name": "Wandering Musicians",
-            "Variance": 7.0,
-            "Group": 4.0
-        },
-        {
-            "Name": "Koh, the Face Stealer",
-            "Variance": 7.0,
-            "Group": 9.0
-        },
-        {
-            "Name": "Destined Confrontation",
-            "Variance": 7.0,
-            "Group": 6.0
-        },
-        {
-            "Name": "White Lotus Tile",
-            "Variance": 7.0,
-            "Group": 3.0
-        },
-        {
-            "Name": "Waterbender Ascension",
-            "Variance": 7.0,
+            "Name": "Avatar Destiny",
+            "Variance": 8.666666666666666,
             "Group": 5.0
         },
         {
-            "Name": "Origin of Metalbending",
-            "Variance": 7.0,
+            "Name": "Waterbending Scroll",
+            "Variance": 8.25,
+            "Group": 3.75
+        },
+        {
+            "Name": "Invasion Tactics",
+            "Variance": 8.25,
+            "Group": 3.75
+        },
+        {
+            "Name": "Gather the White Lotus",
+            "Variance": 8.0,
             "Group": 4.0
+        },
+        {
+            "Name": "The Legend of Kyoshi // Avatar Kyoshi",
+            "Variance": 8.0,
+            "Group": 8.0
+        },
+        {
+            "Name": "Hama, the Bloodbender",
+            "Variance": 7.583333333333333,
+            "Group": 5.25
+        },
+        {
+            "Name": "Master Pakku",
+            "Variance": 7.583333333333333,
+            "Group": 3.25
+        },
+        {
+            "Name": "Zuko, Conflicted",
+            "Variance": 7.333333333333333,
+            "Group": 6.0
+        },
+        {
+            "Name": "Aang, at the Crossroads // Aang, Destined Savior",
+            "Variance": 6.916666666666667,
+            "Group": 8.75
+        },
+        {
+            "Name": "Toph, Hardheaded Teacher",
+            "Variance": 6.916666666666667,
+            "Group": 8.75
+        },
+        {
+            "Name": "Tiger-Seal",
+            "Variance": 6.916666666666667,
+            "Group": 2.25
         }
     ],
     "hot_takes": {
         "Kevin": [
             {
-                "Name": "Iroh, Grand Lotus",
+                "Name": "Fated Firepower",
                 "Kevin_Hot_Take": 6.0,
-                "Group": 7.0,
-                "Kevin": "A",
-                "Nate": "C",
-                "Jon": "C"
+                "Group": 4.5,
+                "Kevin": "G",
+                "Nate": "D",
+                "Jon": "C+",
+                "Josh": "A-"
             },
             {
                 "Name": "Avatar Destiny",
-                "Kevin_Hot_Take": 6.0,
+                "Kevin_Hot_Take": 5.333333333333334,
                 "Group": 5.0,
                 "Kevin": "B+",
                 "Nate": "D",
-                "Jon": "C-"
+                "Jon": "C-",
+                "Josh": "C"
             },
             {
-                "Name": "Phoenix Fleet Airship",
-                "Kevin_Hot_Take": 5.5,
-                "Group": 5.333333333333333,
-                "Kevin": "B+",
-                "Nate": "D",
-                "Jon": "C"
+                "Name": "Waterbender Ascension",
+                "Kevin_Hot_Take": 4.333333333333334,
+                "Group": 4.75,
+                "Kevin": "B",
+                "Nate": "D+",
+                "Jon": "C-",
+                "Josh": "C-"
             }
         ],
         "Nate": [
             {
-                "Name": "Invasion Tactics",
+                "Name": "Phoenix Fleet Airship",
                 "Nate_Hot_Take": 6.0,
-                "Group": 4.0,
-                "Kevin": "C+",
-                "Nate": "G",
-                "Jon": "C+"
-            },
-            {
-                "Name": "Zuko, Conflicted",
-                "Nate_Hot_Take": 5.5,
-                "Group": 5.666666666666667,
-                "Kevin": "B",
+                "Group": 6.5,
+                "Kevin": "B+",
                 "Nate": "D",
-                "Jon": "B-"
+                "Jon": "C",
+                "Josh": "A-"
             },
             {
                 "Name": "The Legend of Kyoshi // Avatar Kyoshi",
-                "Nate_Hot_Take": 5.0,
-                "Group": 7.333333333333333,
+                "Nate_Hot_Take": 5.333333333333334,
+                "Group": 8.0,
                 "Kevin": "A-",
                 "Nate": "C-",
-                "Jon": "B"
+                "Jon": "B",
+                "Josh": "A-"
+            },
+            {
+                "Name": "Zuko, Conflicted",
+                "Nate_Hot_Take": 5.333333333333333,
+                "Group": 6.0,
+                "Kevin": "B",
+                "Nate": "D",
+                "Jon": "B-",
+                "Josh": "B-"
             }
         ],
         "Jon": [
             {
-                "Name": "Tiger-Seal",
-                "Jon_Hot_Take": 5.0,
-                "Group": 1.6666666666666667,
-                "Kevin": "G",
-                "Nate": "G",
-                "Jon": "C"
-            },
-            {
-                "Name": "Fated Firepower",
-                "Jon_Hot_Take": 5.0,
-                "Group": 2.6666666666666665,
-                "Kevin": "G",
-                "Nate": "D",
-                "Jon": "C+"
-            },
-            {
                 "Name": "Buzzard-Wasp Colony",
-                "Jon_Hot_Take": 4.5,
-                "Group": 3.0,
+                "Jon_Hot_Take": 4.666666666666667,
+                "Group": 2.5,
                 "Kevin": "D",
                 "Nate": "D-",
-                "Jon": "C+"
+                "Jon": "C+",
+                "Josh": "D-"
+            },
+            {
+                "Name": "White Lotus Tile",
+                "Jon_Hot_Take": 4.666666666666667,
+                "Group": 2.5,
+                "Kevin": "D",
+                "Nate": "D-",
+                "Jon": "C+",
+                "Josh": "D-"
+            },
+            {
+                "Name": "Waterbending Scroll",
+                "Jon_Hot_Take": 4.333333333333334,
+                "Group": 3.75,
+                "Kevin": "C-",
+                "Nate": "C-",
+                "Jon": "B-",
+                "Josh": "G"
+            }
+        ],
+        "Josh": [
+            {
+                "Name": "Fated Firepower",
+                "Josh_Hot_Take": 7.333333333333334,
+                "Group": 4.5,
+                "Kevin": "G",
+                "Nate": "D",
+                "Jon": "C+",
+                "Josh": "A-"
+            },
+            {
+                "Name": "Planetarium of Wan Shi Tong",
+                "Josh_Hot_Take": 5.666666666666667,
+                "Group": 5.25,
+                "Kevin": "B",
+                "Nate": "C+",
+                "Jon": "C+",
+                "Josh": "D-"
+            },
+            {
+                "Name": "Gather the White Lotus",
+                "Josh_Hot_Take": 5.333333333333333,
+                "Group": 4.0,
+                "Kevin": "C+",
+                "Nate": "C-",
+                "Jon": "C+",
+                "Josh": "G"
             }
         ]
     },
@@ -859,231 +899,254 @@
             "Name": "Aang's Iceberg",
             "Rarity": "R",
             "Color": "W",
-            "Group": 7.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 7.25,
+            "Variance": 0.25,
             "Kevin": "B",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B-"
         },
         {
             "Name": "Aang's Journey",
             "Rarity": "C",
             "Color": "C",
-            "Group": 4.0,
-            "Variance": 3.0,
+            "Group": 4.25,
+            "Variance": 2.25,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "C"
         },
         {
             "Name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
             "Rarity": "R",
             "Color": "M",
             "Group": 10.0,
-            "Variance": 3.0,
+            "Variance": 2.0,
             "Kevin": "A",
             "Nate": "A",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A-"
         },
         {
             "Name": "Aang, at the Crossroads // Aang, Destined Savior",
             "Rarity": "R",
             "Color": "M",
-            "Group": 8.0,
-            "Variance": 7.0,
+            "Group": 8.75,
+            "Variance": 6.916666666666667,
             "Kevin": "A-",
             "Nate": "C",
-            "Jon": "B+"
+            "Jon": "B+",
+            "Josh": "A"
         },
         {
             "Name": "Aang, the Last Airbender",
             "Rarity": "U",
             "Color": "W",
-            "Group": 7.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 7.0,
+            "Variance": 1.3333333333333333,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Abandon Attachments",
             "Rarity": "C",
             "Color": "M",
-            "Group": 4.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 4.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Abandoned Air Temple",
             "Rarity": "R",
             "Color": "W",
-            "Group": 8.333333333333334,
-            "Variance": 0.3333333333333333,
+            "Group": 8.25,
+            "Variance": 0.25,
             "Kevin": "B+",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B"
         },
         {
             "Name": "Accumulate Wisdom",
             "Rarity": "U",
             "Color": "U",
-            "Group": 6.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 6.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Agna Qel'a",
             "Rarity": "R",
             "Color": "U",
-            "Group": 7.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 7.0,
+            "Variance": 1.3333333333333333,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Air Nomad Legacy",
             "Rarity": "U",
             "Color": "M",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "D+",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D"
         },
         {
             "Name": "Airbender Ascension",
             "Rarity": "R",
             "Color": "W",
-            "Group": 5.666666666666667,
-            "Variance": 4.333333333333333,
+            "Group": 5.75,
+            "Variance": 2.9166666666666665,
             "Kevin": "B",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Airbender's Reversal",
             "Rarity": "U",
             "Color": "W",
-            "Group": 5.0,
-            "Variance": 1.0,
+            "Group": 5.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C+"
         },
         {
             "Name": "Airbending Lesson",
             "Rarity": "C",
             "Color": "W",
-            "Group": 5.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 5.5,
+            "Variance": 1.0,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C+"
         },
         {
             "Name": "Airship Engine Room",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Allies at Last",
             "Rarity": "U",
             "Color": "G",
-            "Group": 7.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 7.75,
+            "Variance": 0.25,
             "Kevin": "B",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B"
         },
         {
             "Name": "Appa, Loyal Sky Bison",
             "Rarity": "U",
             "Color": "W",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Appa, Steadfast Guardian",
             "Rarity": "M",
             "Color": "W",
-            "Group": 9.333333333333334,
-            "Variance": 1.3333333333333335,
+            "Group": 9.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "A-",
             "Nate": "A-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A"
         },
         {
             "Name": "Avatar Aang // Aang, Master of Elements",
             "Rarity": "M",
             "Color": "M",
-            "Group": 7.333333333333333,
-            "Variance": 4.333333333333333,
+            "Group": 7.5,
+            "Variance": 3.0,
             "Kevin": "B",
             "Nate": "C",
-            "Jon": "B+"
+            "Jon": "B+",
+            "Josh": "B"
         },
         {
             "Name": "Avatar Destiny",
             "Rarity": "R",
             "Color": "G",
             "Group": 5.0,
-            "Variance": 13.0,
+            "Variance": 8.666666666666666,
             "Kevin": "B+",
             "Nate": "D",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C"
         },
         {
             "Name": "Avatar Enthusiasts",
             "Rarity": "C",
             "Color": "W",
             "Group": 4.0,
-            "Variance": 3.0,
+            "Variance": 2.0,
             "Kevin": "D+",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Avatar's Wrath",
             "Rarity": "R",
             "Color": "W",
             "Group": 9.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "A-",
             "Nate": "B",
-            "Jon": "B+"
+            "Jon": "B+",
+            "Josh": "B+"
         },
         {
             "Name": "Azula Always Lies",
             "Rarity": "C",
             "Color": "B",
-            "Group": 3.0,
-            "Variance": 1.0,
+            "Group": 2.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "D"
         },
         {
             "Name": "Azula, Cunning Usurper",
             "Rarity": "R",
             "Color": "M",
-            "Group": 7.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 8.25,
+            "Variance": 2.9166666666666665,
             "Kevin": "B+",
             "Nate": "B",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "A-"
         },
         {
             "Name": "Azula, On the Hunt",
@@ -1093,2137 +1156,2351 @@
             "Variance": 0.0,
             "Kevin": "B-",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B-"
         },
         {
             "Name": "Ba Sing Se",
             "Rarity": "R",
             "Color": "G",
-            "Group": 7.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 7.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "B",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Badgermole",
             "Rarity": "C",
             "Color": "G",
-            "Group": 6.0,
-            "Variance": 0.0,
+            "Group": 5.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Badgermole Cub",
             "Rarity": "M",
             "Color": "G",
-            "Group": 8.0,
-            "Variance": 1.0,
+            "Group": 8.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "B+",
             "Nate": "B",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "A-"
         },
         {
             "Name": "Barrels of Blasting Jelly",
             "Rarity": "C",
             "Color": "C",
-            "Group": 3.3333333333333335,
-            "Variance": 0.33333333333333337,
+            "Group": 3.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "D+",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C-"
         },
         {
             "Name": "Beetle-Headed Merchants",
             "Rarity": "C",
             "Color": "B",
-            "Group": 4.0,
-            "Variance": 3.0,
+            "Group": 4.25,
+            "Variance": 2.25,
             "Kevin": "C",
             "Nate": "D",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Beifong's Bounty Hunters",
             "Rarity": "R",
             "Color": "M",
-            "Group": 8.0,
-            "Variance": 0.0,
+            "Group": 8.25,
+            "Variance": 0.25,
             "Kevin": "B",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B+"
         },
         {
             "Name": "Bender's Waterskin",
             "Rarity": "C",
             "Color": "C",
-            "Group": 3.3333333333333335,
-            "Variance": 6.333333333333334,
+            "Group": 3.5,
+            "Variance": 4.333333333333333,
             "Kevin": "D+",
             "Nate": "D-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Benevolent River Spirit",
             "Rarity": "U",
             "Color": "U",
-            "Group": 7.0,
-            "Variance": 0.0,
+            "Group": 6.75,
+            "Variance": 0.25,
             "Kevin": "B-",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Bitter Work",
             "Rarity": "U",
             "Color": "M",
-            "Group": 5.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 5.25,
+            "Variance": 2.25,
             "Kevin": "B-",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Boar-q-pine",
             "Rarity": "C",
             "Color": "R",
-            "Group": 4.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 3.75,
+            "Variance": 2.25,
             "Kevin": "D+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D"
         },
         {
             "Name": "Boiling Rock Prison",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Boiling Rock Rioter",
             "Rarity": "R",
             "Color": "B",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 6.5,
+            "Variance": 1.0,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Boomerang Basics",
             "Rarity": "U",
             "Color": "U",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Bumi Bash",
             "Rarity": "C",
             "Color": "R",
-            "Group": 4.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 3.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D"
         },
         {
             "Name": "Bumi, King of Three Trials",
             "Rarity": "U",
             "Color": "G",
-            "Group": 6.333333333333333,
-            "Variance": 6.333333333333333,
+            "Group": 6.25,
+            "Variance": 4.25,
             "Kevin": "B+",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Bumi, Unleashed",
             "Rarity": "M",
             "Color": "M",
-            "Group": 10.0,
-            "Variance": 3.0,
+            "Group": 10.25,
+            "Variance": 2.25,
             "Kevin": "A",
             "Nate": "A",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A"
         },
         {
             "Name": "Buzzard-Wasp Colony",
             "Rarity": "U",
             "Color": "B",
-            "Group": 3.0,
-            "Variance": 7.0,
+            "Group": 2.5,
+            "Variance": 5.666666666666667,
             "Kevin": "D",
             "Nate": "D-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D-"
         },
         {
             "Name": "Callous Inspector",
             "Rarity": "C",
             "Color": "B",
-            "Group": 4.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 4.0,
+            "Variance": 3.3333333333333335,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D"
         },
         {
             "Name": "Canyon Crawler",
             "Rarity": "C",
             "Color": "B",
-            "Group": 4.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 4.0,
+            "Variance": 1.3333333333333333,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Cat-Gator",
             "Rarity": "U",
             "Color": "B",
-            "Group": 5.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 5.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C-"
         },
         {
             "Name": "Cat-Owl",
             "Rarity": "C",
             "Color": "M",
-            "Group": 3.6666666666666665,
-            "Variance": 2.333333333333333,
+            "Group": 3.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "D",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "Combustion Man",
             "Rarity": "U",
             "Color": "R",
-            "Group": 6.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 6.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "B-",
             "Nate": "C",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Combustion Technique",
             "Rarity": "U",
             "Color": "R",
-            "Group": 7.0,
-            "Variance": 0.0,
+            "Group": 6.75,
+            "Variance": 0.25,
             "Kevin": "B-",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Compassionate Healer",
             "Rarity": "C",
             "Color": "W",
-            "Group": 4.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 4.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Corrupt Court Official",
             "Rarity": "C",
             "Color": "B",
-            "Group": 4.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Crashing Wave",
             "Rarity": "U",
             "Color": "U",
-            "Group": 5.0,
-            "Variance": 0.0,
+            "Group": 5.25,
+            "Variance": 0.25,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Crescent Island Temple",
             "Rarity": "U",
             "Color": "R",
-            "Group": 2.3333333333333335,
-            "Variance": 6.333333333333334,
+            "Group": 2.0,
+            "Variance": 4.666666666666667,
             "Kevin": "C",
             "Nate": "D",
-            "Jon": "G"
+            "Jon": "G",
+            "Josh": "D-"
         },
         {
             "Name": "Cruel Administrator",
             "Rarity": "U",
             "Color": "M",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 6.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Cunning Maneuver",
             "Rarity": "C",
             "Color": "R",
-            "Group": 3.6666666666666665,
-            "Variance": 2.333333333333333,
+            "Group": 4.0,
+            "Variance": 2.0,
             "Kevin": "D",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Curious Farm Animals",
             "Rarity": "C",
             "Color": "W",
-            "Group": 3.0,
-            "Variance": 1.0,
+            "Group": 3.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "C-"
         },
         {
             "Name": "Cycle of Renewal",
             "Rarity": "C",
             "Color": "G",
-            "Group": 2.6666666666666665,
-            "Variance": 0.33333333333333337,
+            "Group": 2.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "D+",
             "Nate": "D",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "D-"
         },
         {
             "Name": "Dai Li Agents",
             "Rarity": "U",
             "Color": "M",
-            "Group": 7.0,
-            "Variance": 1.0,
+            "Group": 6.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "B-",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Dai Li Indoctrination",
             "Rarity": "C",
             "Color": "B",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "D+",
             "Nate": "C",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D"
         },
         {
             "Name": "Day of Black Sun",
             "Rarity": "R",
             "Color": "B",
-            "Group": 6.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 6.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B-"
         },
         {
             "Name": "Deadly Precision",
             "Rarity": "C",
             "Color": "B",
-            "Group": 4.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 4.75,
+            "Variance": 0.25,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Deserter's Disciple",
             "Rarity": "C",
             "Color": "R",
-            "Group": 4.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 3.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D"
         },
         {
             "Name": "Destined Confrontation",
             "Rarity": "U",
             "Color": "W",
-            "Group": 6.0,
-            "Variance": 7.0,
+            "Group": 5.5,
+            "Variance": 5.666666666666667,
             "Kevin": "D+",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C-"
         },
         {
             "Name": "Diligent Zookeeper",
             "Rarity": "R",
             "Color": "G",
-            "Group": 6.0,
-            "Variance": 0.0,
+            "Group": 6.5,
+            "Variance": 1.0,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B"
         },
         {
             "Name": "Dragonfly Swarm",
             "Rarity": "U",
             "Color": "M",
             "Group": 6.0,
-            "Variance": 4.0,
+            "Variance": 2.6666666666666665,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C+"
         },
         {
             "Name": "Earth King's Lieutenant",
             "Rarity": "R",
             "Color": "M",
-            "Group": 7.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 8.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "B-",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B+"
         },
         {
             "Name": "Earth Kingdom General",
             "Rarity": "U",
             "Color": "G",
-            "Group": 6.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 6.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Earth Kingdom Jailer",
             "Rarity": "U",
             "Color": "W",
-            "Group": 7.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 7.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "B",
             "Nate": "B",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Earth Kingdom Protectors",
             "Rarity": "U",
             "Color": "W",
-            "Group": 4.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 4.25,
+            "Variance": 2.25,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D+"
         },
         {
             "Name": "Earth Kingdom Soldier",
             "Rarity": "C",
             "Color": "M",
-            "Group": 4.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 4.5,
+            "Variance": 1.0,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Earth Rumble",
             "Rarity": "U",
             "Color": "G",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Earth Rumble Wrestlers",
             "Rarity": "C",
             "Color": "M",
-            "Group": 4.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 4.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C-",
             "Nate": "C",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C"
         },
         {
             "Name": "Earth Village Ruffians",
             "Rarity": "C",
             "Color": "M",
-            "Group": 4.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 4.75,
+            "Variance": 0.25,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Earthbender Ascension",
             "Rarity": "R",
             "Color": "G",
-            "Group": 8.666666666666666,
-            "Variance": 6.333333333333334,
+            "Group": 8.25,
+            "Variance": 4.916666666666667,
             "Kevin": "A",
             "Nate": "B+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         },
         {
             "Name": "Earthbending Lesson",
             "Rarity": "C",
             "Color": "G",
-            "Group": 2.6666666666666665,
-            "Variance": 1.3333333333333333,
+            "Group": 2.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "D",
             "Nate": "C-",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "D+"
         },
         {
             "Name": "Earthen Ally",
             "Rarity": "R",
             "Color": "M",
-            "Group": 4.0,
+            "Group": 3.5,
             "Variance": 3.0,
             "Kevin": "C+",
             "Nate": "D+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "D"
         },
         {
             "Name": "Elemental Teachings",
             "Rarity": "R",
             "Color": "G",
-            "Group": 2.3333333333333335,
-            "Variance": 6.333333333333334,
+            "Group": 1.75,
+            "Variance": 5.583333333333333,
             "Kevin": "D",
             "Nate": "G",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "G"
         },
         {
             "Name": "Ember Island Production",
             "Rarity": "U",
             "Color": "U",
-            "Group": 4.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 3.75,
+            "Variance": 2.9166666666666665,
             "Kevin": "D+",
             "Nate": "C+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D"
         },
         {
             "Name": "Energybending",
             "Rarity": "U",
             "Color": "C",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.25,
+            "Variance": 2.9166666666666665,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D-"
         },
         {
             "Name": "Enter the Avatar State",
             "Rarity": "U",
             "Color": "W",
-            "Group": 6.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 6.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "B-"
         },
         {
             "Name": "Epic Downfall",
             "Rarity": "U",
             "Color": "B",
-            "Group": 6.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 6.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B"
         },
         {
             "Name": "Fancy Footwork",
             "Rarity": "U",
             "Color": "W",
-            "Group": 4.0,
-            "Variance": 4.0,
+            "Group": 4.5,
+            "Variance": 3.6666666666666665,
             "Kevin": "C+",
             "Nate": "D",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C+"
         },
         {
             "Name": "Fatal Fissure",
             "Rarity": "U",
             "Color": "B",
             "Group": 4.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "Fated Firepower",
             "Rarity": "M",
             "Color": "R",
-            "Group": 2.6666666666666665,
-            "Variance": 9.333333333333334,
+            "Group": 4.5,
+            "Variance": 19.666666666666668,
             "Kevin": "G",
             "Nate": "D",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "A-"
         },
         {
             "Name": "Fire Lord Azula",
             "Rarity": "R",
             "Color": "M",
-            "Group": 8.333333333333334,
-            "Variance": 2.3333333333333335,
+            "Group": 9.0,
+            "Variance": 3.3333333333333335,
             "Kevin": "A-",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A"
         },
         {
             "Name": "Fire Lord Zuko",
             "Rarity": "R",
             "Color": "M",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 4.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "D+",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Fire Nation Attacks",
             "Rarity": "U",
             "Color": "R",
-            "Group": 6.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 7.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B+"
         },
         {
             "Name": "Fire Nation Cadets",
             "Rarity": "C",
             "Color": "R",
-            "Group": 3.0,
-            "Variance": 1.0,
+            "Group": 2.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "D"
         },
         {
             "Name": "Fire Nation Engineer",
             "Rarity": "U",
             "Color": "B",
-            "Group": 4.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 4.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Fire Nation Palace",
             "Rarity": "R",
             "Color": "R",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Fire Nation Raider",
             "Rarity": "C",
             "Color": "R",
-            "Group": 3.3333333333333335,
-            "Variance": 2.3333333333333335,
+            "Group": 2.75,
+            "Variance": 2.9166666666666665,
             "Kevin": "C",
             "Nate": "D",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "D-"
         },
         {
             "Name": "Fire Nation Warship",
             "Rarity": "U",
             "Color": "C",
-            "Group": 4.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 4.0,
+            "Variance": 2.0,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D+"
         },
         {
             "Name": "Fire Navy Trebuchet",
             "Rarity": "U",
             "Color": "B",
-            "Group": 4.333333333333333,
-            "Variance": 4.333333333333333,
+            "Group": 4.5,
+            "Variance": 3.0,
             "Kevin": "D",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Fire Sages",
             "Rarity": "U",
             "Color": "R",
             "Group": 6.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "B-",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Firebender Ascension",
             "Rarity": "R",
             "Color": "R",
-            "Group": 7.0,
+            "Group": 7.5,
             "Variance": 3.0,
             "Kevin": "C+",
             "Nate": "B+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B+"
         },
         {
             "Name": "Firebending Lesson",
             "Rarity": "C",
             "Color": "R",
-            "Group": 6.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 6.75,
+            "Variance": 2.25,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "B"
         },
         {
             "Name": "Firebending Student",
             "Rarity": "R",
             "Color": "R",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "First-Time Flyer",
             "Rarity": "C",
             "Color": "U",
-            "Group": 3.6666666666666665,
-            "Variance": 0.33333333333333337,
+            "Group": 3.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "D+"
         },
         {
             "Name": "Flexible Waterbender",
             "Rarity": "C",
             "Color": "U",
             "Group": 3.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "D+",
             "Nate": "D",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D+"
         },
         {
             "Name": "Flopsie, Bumi's Buddy",
             "Rarity": "U",
             "Color": "G",
-            "Group": 6.0,
-            "Variance": 1.0,
+            "Group": 6.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "B-",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         },
         {
             "Name": "Foggy Bottom Swamp",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Foggy Swamp Hunters",
             "Rarity": "C",
             "Color": "B",
-            "Group": 3.0,
+            "Group": 2.5,
             "Variance": 3.0,
             "Kevin": "D",
             "Nate": "C",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "D-"
         },
         {
             "Name": "Foggy Swamp Spirit Keeper",
             "Rarity": "U",
             "Color": "M",
-            "Group": 6.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 6.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B-"
         },
         {
             "Name": "Foggy Swamp Vinebender",
             "Rarity": "C",
             "Color": "G",
-            "Group": 3.6666666666666665,
-            "Variance": 2.3333333333333335,
+            "Group": 3.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "D",
             "Nate": "C",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C-"
         },
         {
             "Name": "Foggy Swamp Visions",
             "Rarity": "R",
             "Color": "B",
-            "Group": 2.3333333333333335,
-            "Variance": 4.333333333333334,
+            "Group": 2.5,
+            "Variance": 3.0,
             "Kevin": "G",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D+"
         },
         {
             "Name": "Forecasting Fortune Teller",
             "Rarity": "C",
             "Color": "U",
-            "Group": 6.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 6.25,
+            "Variance": 2.25,
             "Kevin": "B-",
             "Nate": "B",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Gather the White Lotus",
             "Rarity": "U",
             "Color": "W",
-            "Group": 5.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 4.0,
+            "Variance": 8.0,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "G"
         },
         {
             "Name": "Geyser Leaper",
             "Rarity": "C",
             "Color": "U",
-            "Group": 3.0,
-            "Variance": 0.0,
+            "Group": 3.5,
+            "Variance": 1.0,
             "Kevin": "D+",
             "Nate": "D+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "C"
         },
         {
             "Name": "Giant Koi",
             "Rarity": "C",
             "Color": "U",
-            "Group": 4.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 4.5,
+            "Variance": 1.0,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Glider Kids",
             "Rarity": "C",
             "Color": "W",
-            "Group": 5.0,
-            "Variance": 1.0,
+            "Group": 4.25,
+            "Variance": 2.9166666666666665,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D"
         },
         {
             "Name": "Glider Staff",
             "Rarity": "U",
             "Color": "W",
             "Group": 5.0,
-            "Variance": 3.0,
+            "Variance": 2.0,
             "Kevin": "C+",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Gran-Gran",
             "Rarity": "U",
             "Color": "U",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "Great Divide Guide",
             "Rarity": "R",
             "Color": "G",
-            "Group": 7.333333333333333,
-            "Variance": 4.333333333333333,
+            "Group": 7.25,
+            "Variance": 2.9166666666666665,
             "Kevin": "B+",
             "Nate": "B",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "B-"
         },
         {
             "Name": "Guru Pathik",
             "Rarity": "U",
             "Color": "M",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.0,
+            "Variance": 2.0,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Hakoda, Selfless Commander",
             "Rarity": "R",
             "Color": "W",
-            "Group": 8.0,
-            "Variance": 1.0,
+            "Group": 7.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "B+",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Hama, the Bloodbender",
             "Rarity": "U",
             "Color": "M",
-            "Group": 6.333333333333333,
-            "Variance": 4.333333333333333,
+            "Group": 5.25,
+            "Variance": 7.583333333333333,
             "Kevin": "B-",
             "Nate": "C-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "D"
         },
         {
             "Name": "Haru, Hidden Talent",
             "Rarity": "U",
             "Color": "G",
-            "Group": 5.0,
-            "Variance": 3.0,
+            "Group": 5.25,
+            "Variance": 2.25,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Heartless Act",
             "Rarity": "U",
             "Color": "B",
-            "Group": 7.0,
-            "Variance": 1.0,
+            "Group": 7.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B"
         },
         {
             "Name": "Hei Bai, Spirit of Balance",
             "Rarity": "U",
             "Color": "M",
-            "Group": 6.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 6.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "B-",
             "Nate": "C+",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Hermitic Herbalist",
             "Rarity": "U",
             "Color": "M",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 6.5,
+            "Variance": 1.0,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Hog-Monkey",
             "Rarity": "C",
             "Color": "B",
-            "Group": 2.6666666666666665,
-            "Variance": 1.3333333333333333,
+            "Group": 2.5,
+            "Variance": 1.0,
             "Kevin": "D",
             "Nate": "D",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D"
         },
         {
             "Name": "Honest Work",
             "Rarity": "U",
             "Color": "U",
-            "Group": 4.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 4.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "How to Start a Riot",
             "Rarity": "C",
             "Color": "R",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D+"
         },
         {
             "Name": "Iguana Parrot",
             "Rarity": "C",
             "Color": "U",
             "Group": 5.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C-",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Invasion Reinforcements",
             "Rarity": "U",
             "Color": "W",
-            "Group": 6.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 7.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B"
         },
         {
             "Name": "Invasion Submersible",
             "Rarity": "U",
             "Color": "U",
-            "Group": 5.333333333333333,
-            "Variance": 4.333333333333333,
+            "Group": 5.5,
+            "Variance": 3.0,
             "Kevin": "B-",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Invasion Tactics",
             "Rarity": "U",
             "Color": "G",
-            "Group": 4.0,
-            "Variance": 12.0,
+            "Group": 3.75,
+            "Variance": 8.25,
             "Kevin": "C+",
             "Nate": "G",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D+"
         },
         {
             "Name": "Iroh's Demonstration",
             "Rarity": "U",
             "Color": "R",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 6.5,
+            "Variance": 1.0,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Iroh, Grand Lotus",
             "Rarity": "R",
             "Color": "M",
-            "Group": 7.0,
-            "Variance": 12.0,
+            "Group": 7.75,
+            "Variance": 10.25,
             "Kevin": "A",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "A-"
         },
         {
             "Name": "Iroh, Tea Master",
             "Rarity": "R",
             "Color": "M",
-            "Group": 4.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 4.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "C"
         },
         {
             "Name": "It'll Quench Ya!",
             "Rarity": "C",
             "Color": "U",
-            "Group": 4.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Jasmine Dragon Tea Shop",
             "Rarity": "R",
             "Color": "C",
-            "Group": 6.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 6.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "B",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Jeong Jeong's Deserters",
             "Rarity": "C",
             "Color": "W",
-            "Group": 4.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 4.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "C-",
             "Nate": "C+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "C-"
         },
         {
             "Name": "Jeong Jeong, the Deserter",
             "Rarity": "U",
             "Color": "R",
-            "Group": 5.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 5.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "B-",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Jet's Brainwashing",
             "Rarity": "U",
             "Color": "R",
-            "Group": 3.3333333333333335,
-            "Variance": 0.33333333333333337,
+            "Group": 4.0,
+            "Variance": 2.0,
             "Kevin": "D+",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C+"
         },
         {
             "Name": "Jet, Freedom Fighter",
             "Rarity": "U",
             "Color": "M",
             "Group": 6.0,
-            "Variance": 4.0,
+            "Variance": 2.6666666666666665,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Joo Dee, One of Many",
             "Rarity": "U",
             "Color": "B",
-            "Group": 4.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 4.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C+"
         },
         {
             "Name": "June, Bounty Hunter",
             "Rarity": "U",
             "Color": "B",
-            "Group": 6.0,
-            "Variance": 1.0,
+            "Group": 5.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "Katara, Bending Prodigy",
             "Rarity": "U",
             "Color": "U",
-            "Group": 7.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 7.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "B",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Katara, Water Tribe's Hope",
             "Rarity": "R",
             "Color": "M",
-            "Group": 6.666666666666667,
-            "Variance": 4.333333333333333,
+            "Group": 7.25,
+            "Variance": 4.25,
             "Kevin": "B+",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B+"
         },
         {
             "Name": "Katara, the Fearless",
             "Rarity": "R",
             "Color": "M",
-            "Group": 5.0,
-            "Variance": 4.0,
+            "Group": 5.75,
+            "Variance": 4.916666666666667,
             "Kevin": "D+",
             "Nate": "C",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B"
         },
         {
             "Name": "Knowledge Seeker",
             "Rarity": "U",
             "Color": "U",
-            "Group": 7.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 7.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Koh, the Face Stealer",
             "Rarity": "M",
             "Color": "B",
-            "Group": 9.0,
-            "Variance": 7.0,
+            "Group": 9.25,
+            "Variance": 4.916666666666667,
             "Kevin": "A",
             "Nate": "A-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "A-"
         },
         {
             "Name": "Kyoshi Battle Fan",
             "Rarity": "C",
             "Color": "C",
-            "Group": 3.0,
-            "Variance": 1.0,
+            "Group": 3.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "D+",
             "Nate": "C-",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "C-"
         },
         {
             "Name": "Kyoshi Island Plaza",
             "Rarity": "U",
             "Color": "G",
-            "Group": 1.3333333333333333,
-            "Variance": 2.3333333333333335,
+            "Group": 1.0,
+            "Variance": 2.0,
             "Kevin": "D+",
             "Nate": "D-",
-            "Jon": "G"
+            "Jon": "G",
+            "Josh": "G"
         },
         {
             "Name": "Kyoshi Village",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Kyoshi Warriors",
             "Rarity": "C",
             "Color": "W",
-            "Group": 6.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 6.25,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Leaves from the Vine",
             "Rarity": "U",
             "Color": "G",
-            "Group": 4.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 4.75,
+            "Variance": 0.25,
             "Kevin": "C-",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Lightning Strike",
             "Rarity": "C",
             "Color": "R",
-            "Group": 8.0,
-            "Variance": 0.0,
+            "Group": 7.75,
+            "Variance": 0.25,
             "Kevin": "B",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Lo and Li, Twin Tutors",
             "Rarity": "U",
             "Color": "B",
-            "Group": 3.0,
-            "Variance": 1.0,
+            "Group": 2.25,
+            "Variance": 2.9166666666666665,
             "Kevin": "D",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "G"
         },
         {
             "Name": "Long Feng, Grand Secretariat",
             "Rarity": "U",
             "Color": "M",
-            "Group": 6.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 6.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "B-",
             "Nate": "C",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Lost Days",
             "Rarity": "C",
             "Color": "U",
             "Group": 5.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Mai, Jaded Edge",
             "Rarity": "U",
             "Color": "R",
-            "Group": 5.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 5.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         },
         {
             "Name": "Mai, Scornful Striker",
             "Rarity": "R",
             "Color": "B",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 6.5,
+            "Variance": 1.0,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Master Pakku",
             "Rarity": "U",
             "Color": "U",
-            "Group": 2.3333333333333335,
-            "Variance": 6.333333333333334,
+            "Group": 3.25,
+            "Variance": 7.583333333333333,
             "Kevin": "C",
             "Nate": "D",
-            "Jon": "G"
+            "Jon": "G",
+            "Josh": "C+"
         },
         {
             "Name": "Master Piandao",
             "Rarity": "U",
             "Color": "W",
-            "Group": 7.0,
-            "Variance": 1.0,
+            "Group": 6.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Meditation Pools",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Merchant of Many Hats",
             "Rarity": "C",
             "Color": "B",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D"
         },
         {
             "Name": "Messenger Hawk",
             "Rarity": "C",
             "Color": "M",
-            "Group": 4.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 4.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D+"
         },
         {
             "Name": "Meteor Sword",
             "Rarity": "U",
             "Color": "C",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Misty Palms Oasis",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Momo, Friendly Flier",
             "Rarity": "R",
             "Color": "W",
-            "Group": 5.333333333333333,
-            "Variance": 4.333333333333333,
+            "Group": 6.25,
+            "Variance": 6.25,
             "Kevin": "B-",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B+"
         },
         {
             "Name": "Momo, Playful Pet",
             "Rarity": "U",
             "Color": "W",
             "Group": 6.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Mongoose Lizard",
             "Rarity": "C",
             "Color": "R",
-            "Group": 4.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 4.0,
+            "Variance": 1.3333333333333333,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "North Pole Gates",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "North Pole Patrol",
             "Rarity": "U",
             "Color": "U",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Northern Air Temple",
             "Rarity": "U",
             "Color": "B",
-            "Group": 1.3333333333333333,
-            "Variance": 2.3333333333333335,
+            "Group": 1.0,
+            "Variance": 2.0,
             "Kevin": "D+",
             "Nate": "D-",
-            "Jon": "G"
+            "Jon": "G",
+            "Josh": "G"
         },
         {
             "Name": "Obsessive Pursuit",
             "Rarity": "R",
             "Color": "B",
-            "Group": 7.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 7.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "Octopus Form",
             "Rarity": "C",
             "Color": "U",
-            "Group": 4.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 4.5,
+            "Variance": 1.0,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Omashu City",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Origin of Metalbending",
             "Rarity": "C",
             "Color": "G",
             "Group": 4.0,
-            "Variance": 7.0,
+            "Variance": 4.666666666666667,
             "Kevin": "C+",
             "Nate": "D-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "Ostrich-Horse",
             "Rarity": "C",
             "Color": "G",
-            "Group": 6.0,
-            "Variance": 1.0,
+            "Group": 5.0,
+            "Variance": 4.666666666666667,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D"
         },
         {
             "Name": "Otter-Penguin",
             "Rarity": "C",
             "Color": "U",
-            "Group": 3.0,
-            "Variance": 1.0,
+            "Group": 2.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "D+",
             "Nate": "C-",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "D"
         },
         {
             "Name": "Ozai's Cruelty",
             "Rarity": "U",
             "Color": "B",
-            "Group": 3.6666666666666665,
-            "Variance": 1.3333333333333333,
+            "Group": 3.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "C-"
         },
         {
             "Name": "Ozai, the Phoenix King",
             "Rarity": "M",
             "Color": "M",
-            "Group": 9.0,
-            "Variance": 3.0,
+            "Group": 9.75,
+            "Variance": 4.25,
             "Kevin": "A-",
             "Nate": "B-",
-            "Jon": "A-"
+            "Jon": "A-",
+            "Josh": "A+"
         },
         {
             "Name": "Path to Redemption",
             "Rarity": "C",
             "Color": "W",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Phoenix Fleet Airship",
             "Rarity": "M",
             "Color": "B",
-            "Group": 5.333333333333333,
-            "Variance": 12.333333333333334,
+            "Group": 6.5,
+            "Variance": 13.666666666666666,
             "Kevin": "B+",
             "Nate": "D",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "A-"
         },
         {
             "Name": "Pillar Launch",
             "Rarity": "C",
             "Color": "G",
-            "Group": 3.0,
-            "Variance": 1.0,
+            "Group": 3.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "C"
         },
         {
             "Name": "Pirate Peddlers",
             "Rarity": "C",
             "Color": "B",
-            "Group": 3.6666666666666665,
-            "Variance": 2.333333333333333,
+            "Group": 3.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C-",
             "Nate": "C",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "D+"
         },
         {
             "Name": "Planetarium of Wan Shi Tong",
             "Rarity": "M",
             "Color": "C",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 5.25,
+            "Variance": 8.916666666666666,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D-"
         },
         {
             "Name": "Platypus-Bear",
             "Rarity": "C",
             "Color": "M",
-            "Group": 2.0,
-            "Variance": 3.0,
+            "Group": 2.25,
+            "Variance": 2.25,
             "Kevin": "D+",
             "Nate": "D+",
-            "Jon": "G"
+            "Jon": "G",
+            "Josh": "D+"
         },
         {
             "Name": "Pretending Poxbearers",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.25,
+            "Variance": 0.25,
             "Kevin": "C",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Price of Freedom",
             "Rarity": "U",
             "Color": "R",
-            "Group": 2.6666666666666665,
-            "Variance": 6.333333333333334,
+            "Group": 2.0,
+            "Variance": 6.0,
             "Kevin": "D+",
             "Nate": "G",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "G"
         },
         {
             "Name": "Professor Zei, Anthropologist",
             "Rarity": "U",
             "Color": "M",
-            "Group": 3.6666666666666665,
-            "Variance": 0.33333333333333337,
+            "Group": 3.0,
+            "Variance": 2.0,
             "Kevin": "D+",
             "Nate": "C-",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D-"
         },
         {
             "Name": "Rabaroo Troop",
             "Rarity": "C",
             "Color": "W",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D"
         },
         {
             "Name": "Ran and Shaw",
             "Rarity": "R",
             "Color": "R",
-            "Group": 8.0,
-            "Variance": 7.0,
+            "Group": 8.25,
+            "Variance": 4.916666666666667,
             "Kevin": "A",
             "Nate": "B-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B+"
         },
         {
             "Name": "Raucous Audience",
             "Rarity": "C",
             "Color": "G",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Raven Eagle",
             "Rarity": "R",
             "Color": "B",
-            "Group": 7.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 7.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "B+",
             "Nate": "B",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         },
         {
             "Name": "Razor Rings",
             "Rarity": "C",
             "Color": "W",
-            "Group": 5.0,
-            "Variance": 1.0,
+            "Group": 4.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Realm of Koh",
             "Rarity": "R",
             "Color": "B",
             "Group": 6.0,
-            "Variance": 7.0,
+            "Variance": 4.666666666666667,
             "Kevin": "B-",
             "Nate": "D+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "Rebellious Captives",
             "Rarity": "C",
             "Color": "G",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.25,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Redirect Lightning",
             "Rarity": "R",
             "Color": "R",
-            "Group": 3.3333333333333335,
-            "Variance": 5.333333333333334,
+            "Group": 3.0,
+            "Variance": 4.0,
             "Kevin": "D",
             "Nate": "D",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D"
         },
         {
             "Name": "Rockalanche",
             "Rarity": "U",
             "Color": "G",
-            "Group": 5.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 5.0,
+            "Variance": 2.6666666666666665,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "D+"
         },
         {
             "Name": "Rocky Rebuke",
             "Rarity": "C",
             "Color": "G",
-            "Group": 6.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 6.75,
+            "Variance": 0.25,
             "Kevin": "B-",
             "Nate": "B-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         },
         {
             "Name": "Rough Rhino Cavalry",
             "Rarity": "C",
             "Color": "R",
-            "Group": 4.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 4.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Rowdy Snowballers",
             "Rarity": "C",
             "Color": "U",
-            "Group": 5.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 5.0,
+            "Variance": 1.3333333333333333,
             "Kevin": "C-",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Ruinous Waterbending",
             "Rarity": "U",
             "Color": "B",
-            "Group": 3.6666666666666665,
-            "Variance": 2.333333333333333,
+            "Group": 4.0,
+            "Variance": 2.0,
             "Kevin": "C-",
             "Nate": "D",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Rumble Arena",
             "Rarity": "C",
             "Color": "C",
-            "Group": 4.0,
+            "Group": 4.5,
             "Variance": 3.0,
             "Kevin": "D+",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Saber-Tooth Moose-Lion",
             "Rarity": "C",
             "Color": "G",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Sandbender Scavengers",
             "Rarity": "R",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 6.25,
+            "Variance": 4.25,
             "Kevin": "C-",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B+"
         },
         {
             "Name": "Sandbenders' Storm",
             "Rarity": "C",
             "Color": "W",
             "Group": 5.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Secret Tunnel",
             "Rarity": "R",
             "Color": "C",
-            "Group": 4.666666666666667,
-            "Variance": 6.333333333333333,
+            "Group": 4.5,
+            "Variance": 4.333333333333333,
             "Kevin": "C",
             "Nate": "D",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C-"
         },
         {
             "Name": "Secret of Bloodbending",
             "Rarity": "M",
             "Color": "U",
-            "Group": 2.3333333333333335,
-            "Variance": 1.3333333333333333,
+            "Group": 1.75,
+            "Variance": 2.25,
             "Kevin": "D-",
             "Nate": "D+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "G"
         },
         {
             "Name": "Seismic Sense",
             "Rarity": "U",
             "Color": "G",
-            "Group": 4.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 5.0,
+            "Variance": 2.0,
             "Kevin": "C",
             "Nate": "C+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "C+"
         },
         {
             "Name": "Serpent of the Pass",
             "Rarity": "U",
             "Color": "U",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Serpent's Pass",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Shared Roots",
             "Rarity": "U",
             "Color": "G",
-            "Group": 5.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 5.25,
+            "Variance": 2.25,
             "Kevin": "B-",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Sokka's Haiku",
             "Rarity": "U",
             "Color": "U",
-            "Group": 4.0,
-            "Variance": 4.0,
+            "Group": 4.5,
+            "Variance": 3.6666666666666665,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "C+"
         },
         {
             "Name": "Sokka, Bold Boomeranger",
             "Rarity": "R",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 6.0,
+            "Variance": 2.0,
             "Kevin": "C",
             "Nate": "C+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "B"
         },
         {
             "Name": "Sokka, Lateral Strategist",
             "Rarity": "U",
             "Color": "M",
-            "Group": 6.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 6.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "B-",
             "Nate": "C",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "Sokka, Tenacious Tactician",
             "Rarity": "R",
             "Color": "M",
-            "Group": 7.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 8.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "B-",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A-"
         },
         {
             "Name": "Sold Out",
             "Rarity": "C",
             "Color": "B",
-            "Group": 6.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 6.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "B",
             "Nate": "B-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Solstice Revelations",
             "Rarity": "U",
             "Color": "R",
-            "Group": 5.0,
-            "Variance": 3.0,
+            "Group": 4.0,
+            "Variance": 6.0,
             "Kevin": "D+",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D-"
         },
         {
             "Name": "South Pole Voyager",
             "Rarity": "R",
             "Color": "W",
-            "Group": 7.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 7.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "B-",
             "Nate": "C+",
-            "Jon": "B+"
+            "Jon": "B+",
+            "Josh": "B-"
         },
         {
             "Name": "Southern Air Temple",
             "Rarity": "U",
             "Color": "W",
-            "Group": 4.0,
-            "Variance": 0.0,
+            "Group": 3.25,
+            "Variance": 2.25,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D-"
         },
         {
             "Name": "Sozin's Comet",
             "Rarity": "M",
             "Color": "R",
-            "Group": 2.6666666666666665,
-            "Variance": 4.333333333333334,
+            "Group": 2.75,
+            "Variance": 2.9166666666666665,
             "Kevin": "D-",
             "Nate": "D",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Sparring Dummy",
             "Rarity": "U",
             "Color": "G",
-            "Group": 3.0,
-            "Variance": 3.0,
+            "Group": 2.25,
+            "Variance": 4.25,
             "Kevin": "D",
             "Nate": "D",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "G"
         },
         {
             "Name": "Spirit Water Revival",
             "Rarity": "R",
             "Color": "U",
-            "Group": 6.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 5.75,
+            "Variance": 2.9166666666666665,
             "Kevin": "B",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Suki, Courageous Rescuer",
             "Rarity": "R",
             "Color": "W",
-            "Group": 7.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 7.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B+"
         },
         {
             "Name": "Suki, Kyoshi Warrior",
             "Rarity": "U",
             "Color": "M",
-            "Group": 7.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 7.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "B-",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B"
         },
         {
             "Name": "Sun Warriors",
             "Rarity": "U",
             "Color": "M",
-            "Group": 7.0,
-            "Variance": 0.0,
+            "Group": 7.5,
+            "Variance": 1.0,
             "Kevin": "B-",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B+"
         },
         {
             "Name": "Sun-Blessed Peak",
             "Rarity": "C",
             "Color": "M",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.75,
+            "Variance": 0.25,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Swampsnare Trap",
             "Rarity": "C",
             "Color": "B",
-            "Group": 5.0,
-            "Variance": 3.0,
+            "Group": 4.25,
+            "Variance": 4.25,
             "Kevin": "C-",
             "Nate": "B-",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "D"
         },
         {
             "Name": "Team Avatar",
             "Rarity": "U",
             "Color": "W",
-            "Group": 6.0,
-            "Variance": 0.0,
+            "Group": 4.75,
+            "Variance": 6.25,
             "Kevin": "C+",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D-"
         },
         {
             "Name": "Teo, Spirited Glider",
             "Rarity": "U",
             "Color": "U",
-            "Group": 3.3333333333333335,
-            "Variance": 2.333333333333333,
+            "Group": 3.0,
+            "Variance": 2.0,
             "Kevin": "D",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D"
         },
         {
             "Name": "The Boulder, Ready to Rumble",
             "Rarity": "U",
             "Color": "G",
-            "Group": 5.666666666666667,
-            "Variance": 5.333333333333333,
+            "Group": 6.0,
+            "Variance": 4.0,
             "Kevin": "B-",
             "Nate": "D+",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B-"
         },
         {
             "Name": "The Cave of Two Lovers",
             "Rarity": "U",
             "Color": "R",
-            "Group": 7.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 6.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "B",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C"
         },
         {
             "Name": "The Earth King",
             "Rarity": "R",
             "Color": "G",
-            "Group": 9.666666666666666,
-            "Variance": 5.333333333333334,
+            "Group": 9.75,
+            "Variance": 3.5833333333333335,
             "Kevin": "A",
             "Nate": "A",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "A-"
         },
         {
             "Name": "The Fire Nation Drill",
             "Rarity": "R",
             "Color": "B",
-            "Group": 7.666666666666667,
-            "Variance": 4.333333333333333,
+            "Group": 7.5,
+            "Variance": 3.0,
             "Kevin": "A-",
             "Nate": "B-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         },
         {
             "Name": "The Last Agni Kai",
             "Rarity": "R",
             "Color": "R",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 7.0,
+            "Variance": 1.3333333333333333,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B"
         },
         {
             "Name": "The Legend of Kuruk // Avatar Kuruk",
             "Rarity": "M",
             "Color": "U",
-            "Group": 9.0,
+            "Group": 8.5,
             "Variance": 3.0,
             "Kevin": "A",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B-"
         },
         {
             "Name": "The Legend of Kyoshi // Avatar Kyoshi",
             "Rarity": "M",
             "Color": "G",
-            "Group": 7.333333333333333,
-            "Variance": 9.333333333333334,
+            "Group": 8.0,
+            "Variance": 8.0,
             "Kevin": "A-",
             "Nate": "C-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A-"
         },
         {
             "Name": "The Legend of Roku // Avatar Roku",
             "Rarity": "M",
             "Color": "R",
-            "Group": 8.666666666666666,
-            "Variance": 4.333333333333333,
+            "Group": 9.0,
+            "Variance": 3.3333333333333335,
             "Kevin": "A",
             "Nate": "B-",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A-"
         },
         {
             "Name": "The Legend of Yangchen // Avatar Yangchen",
             "Rarity": "M",
             "Color": "W",
-            "Group": 7.0,
-            "Variance": 9.0,
+            "Group": 6.75,
+            "Variance": 6.25,
             "Kevin": "A-",
             "Nate": "C-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "The Lion-Turtle",
             "Rarity": "R",
             "Color": "M",
-            "Group": 3.6666666666666665,
-            "Variance": 1.3333333333333333,
+            "Group": 3.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "D"
         },
         {
             "Name": "The Mechanist, Aerial Artisan",
             "Rarity": "R",
             "Color": "U",
-            "Group": 8.333333333333334,
-            "Variance": 4.333333333333334,
+            "Group": 7.5,
+            "Variance": 5.666666666666667,
             "Kevin": "B+",
             "Nate": "A-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "The Rise of Sozin // Fire Lord Sozin",
             "Rarity": "M",
             "Color": "B",
-            "Group": 9.333333333333334,
-            "Variance": 6.333333333333333,
+            "Group": 9.5,
+            "Variance": 4.333333333333333,
             "Kevin": "A+",
             "Nate": "B-",
-            "Jon": "B+"
+            "Jon": "B+",
+            "Josh": "A-"
         },
         {
             "Name": "The Spirit Oasis",
             "Rarity": "U",
             "Color": "U",
-            "Group": 4.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 3.25,
+            "Variance": 6.25,
             "Kevin": "C-",
             "Nate": "C+",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "G"
         },
         {
             "Name": "The Unagi of Kyoshi Island",
             "Rarity": "R",
             "Color": "U",
-            "Group": 7.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 8.0,
+            "Variance": 1.3333333333333333,
             "Kevin": "B+",
             "Nate": "B-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B+"
         },
         {
             "Name": "The Walls of Ba Sing Se",
@@ -3233,47 +3510,52 @@
             "Variance": 0.0,
             "Kevin": "G",
             "Nate": "G",
-            "Jon": "G"
+            "Jon": "G",
+            "Josh": "G"
         },
         {
             "Name": "Tiger-Dillo",
             "Rarity": "U",
             "Color": "R",
-            "Group": 3.6666666666666665,
-            "Variance": 2.333333333333333,
+            "Group": 3.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C-",
             "Nate": "D",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Tiger-Seal",
             "Rarity": "R",
             "Color": "U",
-            "Group": 1.6666666666666667,
-            "Variance": 8.333333333333332,
+            "Group": 2.25,
+            "Variance": 6.916666666666667,
             "Kevin": "G",
             "Nate": "G",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "Tolls of War",
             "Rarity": "U",
             "Color": "M",
-            "Group": 5.0,
-            "Variance": 1.0,
+            "Group": 5.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Toph, Hardheaded Teacher",
             "Rarity": "R",
             "Color": "M",
-            "Group": 8.0,
-            "Variance": 7.0,
+            "Group": 8.75,
+            "Variance": 6.916666666666667,
             "Kevin": "A-",
             "Nate": "C",
-            "Jon": "B+"
+            "Jon": "B+",
+            "Josh": "A"
         },
         {
             "Name": "Toph, the Blind Bandit",
@@ -3283,337 +3565,371 @@
             "Variance": 0.0,
             "Kevin": "B",
             "Nate": "B",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "B"
         },
         {
             "Name": "Toph, the First Metalbender",
             "Rarity": "R",
             "Color": "M",
-            "Group": 8.0,
-            "Variance": 4.0,
+            "Group": 8.75,
+            "Variance": 4.916666666666667,
             "Kevin": "A-",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A"
         },
         {
             "Name": "Treetop Freedom Fighters",
             "Rarity": "C",
             "Color": "R",
-            "Group": 6.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 6.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "C+",
             "Nate": "B-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "True Ancestry",
             "Rarity": "U",
             "Color": "G",
-            "Group": 5.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 5.75,
+            "Variance": 1.5833333333333333,
             "Kevin": "B-",
             "Nate": "C+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C+"
         },
         {
             "Name": "Trusty Boomerang",
             "Rarity": "U",
             "Color": "C",
-            "Group": 2.0,
-            "Variance": 4.0,
+            "Group": 1.5,
+            "Variance": 3.6666666666666665,
             "Kevin": "D",
             "Nate": "G",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "G"
         },
         {
             "Name": "Tundra Tank",
             "Rarity": "U",
             "Color": "B",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 3.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Turtle-Duck",
             "Rarity": "C",
             "Color": "G",
-            "Group": 1.3333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 1.5,
+            "Variance": 1.0,
             "Kevin": "D",
             "Nate": "D",
-            "Jon": "G"
+            "Jon": "G",
+            "Josh": "D"
         },
         {
             "Name": "Twin Blades",
             "Rarity": "U",
             "Color": "R",
-            "Group": 4.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 5.0,
+            "Variance": 2.6666666666666665,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "B-"
         },
         {
             "Name": "Ty Lee, Artful Acrobat",
             "Rarity": "U",
             "Color": "R",
-            "Group": 5.0,
-            "Variance": 1.0,
+            "Group": 5.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         },
         {
             "Name": "Ty Lee, Chi Blocker",
             "Rarity": "R",
             "Color": "U",
-            "Group": 7.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 6.75,
+            "Variance": 2.9166666666666665,
             "Kevin": "B+",
             "Nate": "C+",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C"
         },
         {
             "Name": "Uncle Iroh",
             "Rarity": "U",
             "Color": "M",
             "Group": 6.0,
-            "Variance": 1.0,
+            "Variance": 0.6666666666666666,
             "Kevin": "B-",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "United Front",
             "Rarity": "M",
             "Color": "W",
-            "Group": 9.0,
-            "Variance": 3.0,
+            "Group": 9.75,
+            "Variance": 4.25,
             "Kevin": "A-",
             "Nate": "B-",
-            "Jon": "A-"
+            "Jon": "A-",
+            "Josh": "A+"
         },
         {
             "Name": "Unlucky Cabbage Merchant",
             "Rarity": "U",
             "Color": "G",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 6.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Vengeful Villagers",
             "Rarity": "U",
             "Color": "W",
-            "Group": 3.3333333333333335,
-            "Variance": 2.333333333333333,
+            "Group": 3.25,
+            "Variance": 1.5833333333333333,
             "Kevin": "D+",
             "Nate": "D",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "D+"
         },
         {
             "Name": "Vindictive Warden",
             "Rarity": "C",
             "Color": "M",
             "Group": 4.0,
-            "Variance": 4.0,
+            "Variance": 2.6666666666666665,
             "Kevin": "D",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C-"
         },
         {
             "Name": "Walltop Sentries",
             "Rarity": "C",
             "Color": "G",
-            "Group": 4.666666666666667,
-            "Variance": 2.333333333333333,
+            "Group": 4.0,
+            "Variance": 3.3333333333333335,
             "Kevin": "C+",
             "Nate": "C",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "D"
         },
         {
             "Name": "Wan Shi Tong, Librarian",
             "Rarity": "M",
             "Color": "U",
-            "Group": 9.666666666666666,
-            "Variance": 2.3333333333333335,
+            "Group": 10.0,
+            "Variance": 2.0,
             "Kevin": "A-",
             "Nate": "A",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "A"
         },
         {
             "Name": "Wandering Musicians",
             "Rarity": "C",
             "Color": "M",
-            "Group": 4.0,
-            "Variance": 7.0,
+            "Group": 4.5,
+            "Variance": 5.666666666666667,
             "Kevin": "D",
             "Nate": "D+",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "C+"
         },
         {
             "Name": "War Balloon",
             "Rarity": "U",
             "Color": "R",
-            "Group": 5.0,
-            "Variance": 1.0,
+            "Group": 5.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Wartime Protestors",
             "Rarity": "R",
             "Color": "R",
-            "Group": 6.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 7.25,
+            "Variance": 2.25,
             "Kevin": "B",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B+"
         },
         {
             "Name": "Water Tribe Captain",
             "Rarity": "C",
             "Color": "W",
-            "Group": 4.666666666666667,
-            "Variance": 1.3333333333333335,
+            "Group": 4.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C"
         },
         {
             "Name": "Water Tribe Rallier",
             "Rarity": "U",
             "Color": "W",
-            "Group": 6.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 6.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "B-",
             "Nate": "B-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C+"
         },
         {
             "Name": "Waterbender Ascension",
             "Rarity": "R",
             "Color": "U",
-            "Group": 5.0,
-            "Variance": 7.0,
+            "Group": 4.75,
+            "Variance": 4.916666666666667,
             "Kevin": "B",
             "Nate": "D+",
-            "Jon": "C-"
+            "Jon": "C-",
+            "Josh": "C-"
         },
         {
             "Name": "Waterbending Lesson",
             "Rarity": "C",
             "Color": "U",
-            "Group": 4.0,
+            "Group": 4.5,
             "Variance": 3.0,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "C+"
         },
         {
             "Name": "Waterbending Scroll",
             "Rarity": "U",
             "Color": "U",
-            "Group": 5.0,
-            "Variance": 3.0,
+            "Group": 3.75,
+            "Variance": 8.25,
             "Kevin": "C-",
             "Nate": "C-",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "G"
         },
         {
             "Name": "Watery Grasp",
             "Rarity": "C",
             "Color": "U",
-            "Group": 4.0,
-            "Variance": 1.0,
+            "Group": 4.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C",
             "Nate": "C-",
-            "Jon": "D+"
+            "Jon": "D+",
+            "Josh": "C+"
         },
         {
             "Name": "White Lotus Hideout",
             "Rarity": "U",
             "Color": "C",
-            "Group": 4.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 4.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "White Lotus Reinforcements",
             "Rarity": "U",
             "Color": "M",
-            "Group": 7.0,
-            "Variance": 1.0,
+            "Group": 6.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "B-",
             "Nate": "C+",
-            "Jon": "B"
+            "Jon": "B",
+            "Josh": "C+"
         },
         {
             "Name": "White Lotus Tile",
             "Rarity": "M",
             "Color": "C",
-            "Group": 3.0,
-            "Variance": 7.0,
+            "Group": 2.5,
+            "Variance": 5.666666666666667,
             "Kevin": "D",
             "Nate": "D-",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "D-"
         },
         {
             "Name": "Wolfbat",
             "Rarity": "U",
             "Color": "B",
-            "Group": 4.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 4.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "C-",
             "Nate": "D+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Yip Yip!",
             "Rarity": "C",
             "Color": "W",
-            "Group": 3.3333333333333335,
-            "Variance": 2.333333333333333,
+            "Group": 3.75,
+            "Variance": 2.25,
             "Kevin": "C",
             "Nate": "D+",
-            "Jon": "D"
+            "Jon": "D",
+            "Josh": "C"
         },
         {
             "Name": "Yue, the Moon Spirit",
             "Rarity": "R",
             "Color": "U",
-            "Group": 5.333333333333333,
-            "Variance": 1.3333333333333335,
+            "Group": 5.25,
+            "Variance": 0.9166666666666666,
             "Kevin": "C-",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Yuyan Archers",
             "Rarity": "C",
             "Color": "R",
-            "Group": 5.0,
-            "Variance": 1.0,
+            "Group": 4.75,
+            "Variance": 0.9166666666666666,
             "Kevin": "C+",
             "Nate": "C-",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C-"
         },
         {
             "Name": "Zhao, Ruthless Admiral",
             "Rarity": "U",
             "Color": "M",
-            "Group": 5.333333333333333,
-            "Variance": 0.33333333333333337,
+            "Group": 5.5,
+            "Variance": 0.3333333333333333,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Zhao, the Moon Slayer",
@@ -3623,47 +3939,52 @@
             "Variance": 0.0,
             "Kevin": "C",
             "Nate": "C",
-            "Jon": "C"
+            "Jon": "C",
+            "Josh": "C"
         },
         {
             "Name": "Zuko's Conviction",
             "Rarity": "U",
             "Color": "B",
-            "Group": 5.666666666666667,
-            "Variance": 0.33333333333333337,
+            "Group": 5.75,
+            "Variance": 0.25,
             "Kevin": "C",
             "Nate": "C+",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C+"
         },
         {
             "Name": "Zuko's Exile",
             "Rarity": "C",
             "Color": "C",
-            "Group": 3.3333333333333335,
-            "Variance": 5.333333333333334,
+            "Group": 3.75,
+            "Variance": 4.25,
             "Kevin": "D",
             "Nate": "D",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "C"
         },
         {
             "Name": "Zuko, Conflicted",
             "Rarity": "R",
             "Color": "M",
-            "Group": 5.666666666666667,
-            "Variance": 10.333333333333334,
+            "Group": 6.0,
+            "Variance": 7.333333333333333,
             "Kevin": "B",
             "Nate": "D",
-            "Jon": "B-"
+            "Jon": "B-",
+            "Josh": "B-"
         },
         {
             "Name": "Zuko, Exiled Prince",
             "Rarity": "U",
             "Color": "R",
-            "Group": 6.333333333333333,
-            "Variance": 2.333333333333333,
+            "Group": 6.5,
+            "Variance": 1.6666666666666667,
             "Kevin": "B",
             "Nate": "C",
-            "Jon": "C+"
+            "Jon": "C+",
+            "Josh": "B-"
         }
     ]
 }

@@ -1,26 +1,28 @@
-2025-11-12 18:24:06,799 - INFO - Script started.
-2025-11-12 18:24:06,799 - INFO - Loading ratings for Kevin.
-2025-11-12 18:24:06,803 - INFO - Loading and merging ratings for Nate.
-2025-11-12 18:24:06,806 - INFO - Loading and merging ratings for Jon.
-2025-11-12 18:24:06,809 - INFO - --- Unrated Card Analysis ---
-2025-11-12 18:24:06,809 - INFO - All cards were rated by Kevin.
-2025-11-12 18:24:06,809 - INFO - All cards were rated by Nate.
-2025-11-12 18:24:06,809 - INFO - All cards were rated by Jon.
-2025-11-12 18:24:06,809 - INFO - All raters rated all cards. Perfect match.
-2025-11-12 18:24:06,809 - INFO - Excluding basic lands from analysis.
-2025-11-12 18:24:06,810 - INFO - ==============================
-2025-11-12 18:24:06,810 - INFO - Converting letter grades to numeric values.
-2025-11-12 18:24:06,812 - INFO - Calculating average rating by color pair.
-2025-11-12 18:24:06,815 - INFO - Calculating top 3 commons by color.
-2025-11-12 18:24:06,820 - INFO - Calculating top 3 uncommons by color.
-2025-11-12 18:24:06,825 - INFO - Calculating top 3 rares by color.
-2025-11-12 18:24:06,830 - INFO - Calculating top 3 mythics by color.
-2025-11-12 18:24:06,834 - INFO - Calculating bottom 3 commons by color.
-2025-11-12 18:24:06,839 - INFO - Calculating bottom 3 uncommons by color.
-2025-11-12 18:24:06,843 - INFO - Calculating bottom 3 cards overall.
-2025-11-12 18:24:06,844 - INFO - Calculating top 15 variance cards.
-2025-11-12 18:24:06,846 - INFO - Calculating top 3 'hot takes' for each rater.
-2025-11-12 18:24:06,852 - INFO - Saving full card list to results dictionary.
-2025-11-12 18:24:06,853 - INFO - Writing all results to analysis_results.json
-2025-11-12 18:24:06,859 - INFO - Successfully wrote results to JSON file.
-2025-11-12 18:24:06,859 - INFO - Script finished.
+2025-11-12 20:45:13,359 - INFO - Script started.
+2025-11-12 20:45:13,359 - INFO - Loading ratings for Kevin.
+2025-11-12 20:45:13,363 - INFO - Loading and merging ratings for Nate.
+2025-11-12 20:45:13,366 - INFO - Loading and merging ratings for Jon.
+2025-11-12 20:45:13,369 - INFO - Loading and merging ratings for Josh.
+2025-11-12 20:45:13,372 - INFO - --- Unrated Card Analysis ---
+2025-11-12 20:45:13,372 - INFO - All cards were rated by Kevin.
+2025-11-12 20:45:13,372 - INFO - All cards were rated by Nate.
+2025-11-12 20:45:13,372 - INFO - All cards were rated by Jon.
+2025-11-12 20:45:13,372 - INFO - All cards were rated by Josh.
+2025-11-12 20:45:13,372 - INFO - All raters rated all cards. Perfect match.
+2025-11-12 20:45:13,373 - INFO - Excluding basic lands from analysis.
+2025-11-12 20:45:13,373 - INFO - ==============================
+2025-11-12 20:45:13,373 - INFO - Converting letter grades to numeric values.
+2025-11-12 20:45:13,375 - INFO - Calculating average rating by color pair.
+2025-11-12 20:45:13,378 - INFO - Calculating top 3 commons by color.
+2025-11-12 20:45:13,384 - INFO - Calculating top 3 uncommons by color.
+2025-11-12 20:45:13,388 - INFO - Calculating top 3 rares by color.
+2025-11-12 20:45:13,394 - INFO - Calculating top 3 mythics by color.
+2025-11-12 20:45:13,398 - INFO - Calculating bottom 3 commons by color.
+2025-11-12 20:45:13,405 - INFO - Calculating bottom 3 uncommons by color.
+2025-11-12 20:45:13,409 - INFO - Calculating bottom 3 cards overall.
+2025-11-12 20:45:13,410 - INFO - Calculating top 15 variance cards.
+2025-11-12 20:45:13,412 - INFO - Calculating top 3 'hot takes' for each rater.
+2025-11-12 20:45:13,417 - INFO - Saving full card list to results dictionary.
+2025-11-12 20:45:13,419 - INFO - Writing all results to analysis_results.json
+2025-11-12 20:45:13,426 - INFO - Successfully wrote results to JSON file.
+2025-11-12 20:45:13,426 - INFO - Script finished.

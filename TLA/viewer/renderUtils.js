@@ -30,7 +30,7 @@ const wubrgcOrder = {
     'M': 7
 };
 
-// --- NEW: Python's color order for matching keys ---
+// --- Python's color order for matching keys ---
 const PYTHON_COLOR_ORDER = { 'W': 1, 'R': 2, 'B': 3, 'U': 4, 'G': 5 };
 
 // --- Helper function to get the letter grade ---
@@ -52,13 +52,10 @@ export function renderColorPairs(colorPairs, container) {
     let html = '<table>';
     html += '<tr><th>Color Pair</th><th>Average Rating</th></tr>';
     
-    // --- THE FIX: Sort by average_rating, descending ---
-    // The Python script already does this, but we ensure it here.
+    // Sort by average_rating, descending
     colorPairs.sort((a, b) => b.average_rating - a.average_rating);
-    // --- END FIX ---
 
     for (const pair of colorPairs) {
-        // We still need this map to create the WUBRG dots
         const wubrgDotOrder = { 'W': 1, 'U': 2, 'B': 3, 'R': 4, 'G': 5 };
         const [c1, c2] = pair.colors.split('/').sort((a, b) => wubrgDotOrder[a] - wubrgDotOrder[b]);
         
@@ -106,12 +103,8 @@ export function renderUnratedList(unratedData, container) {
 
 /**
  * Renders the gallery of Signpost Uncommons (Uncommon + Multicolored).
- * @param {Array} allCards - The full list of cards from analysis_results.json
- * @param {Array} raters - The list of rater names
- * @param {HTMLElement} container - The <div> to put the gallery in
- * @param {Map} colorPairRankMap - A map from `app.js` (e.g., {'W/G': 0, 'W/U': 1, ...})
  */
-export function renderSignpostUncommons(allCards, raters, container, colorPairRankMap) { // <-- UPDATED
+export function renderSignpostUncommons(allCards, raters, container, colorPairRankMap) { 
     if (!allCards || !raters || allCards.length === 0) {
         container.innerHTML = "<p>No card data found.</p>";
         return;
@@ -124,21 +117,14 @@ export function renderSignpostUncommons(allCards, raters, container, colorPairRa
         return;
     }
 
-    // --- UPDATED: Sort signposts by the color pair rank map ---
     const getSortValue = (card) => {
         const frontFaceName = card.Name.split(/\s*\/\/\s*/)[0];
         const scryfallCard = scryfallMap.get(frontFaceName);
         
         if (scryfallCard && scryfallCard.colors && scryfallCard.colors.length === 2) {
-            // --- THE FIX ---
-            // Sort the Scryfall colors (e.g., ['U', 'R']) using the *Python* list order
-            // This turns ['U', 'R'] into ['R', 'U']
             const [c1, c2] = scryfallCard.colors.sort((a, b) => PYTHON_COLOR_ORDER[a] - PYTHON_COLOR_ORDER[b]);
-            // This creates the key 'R/U', which matches the map
             const pairKey = `${c1}/${c2}`;
-            // --- END FIX ---
-
-            // Look up the rank from the map we passed in
+            
             if (colorPairRankMap && colorPairRankMap.has(pairKey)) {
                 return colorPairRankMap.get(pairKey);
             }
@@ -147,7 +133,6 @@ export function renderSignpostUncommons(allCards, raters, container, colorPairRa
     };
 
     signposts.sort((a, b) => getSortValue(a) - getSortValue(b));
-    // --- END UPDATE ---
 
     let html = '';
     for (const card of signposts) {
@@ -478,3 +463,55 @@ export function renderBottomOverall(bottomOverall, container) {
     }
     container.innerHTML = html;
 }
+
+// --- NEW FUNCTION ---
+/**
+ * Renders the gallery for the full set review.
+ * @param {Array} allCards - The full list of cards from analysis_results.json
+ * @param {Array} raters - The list of rater names
+ * @param {HTMLElement} container - The <div> to put the gallery in
+ */
+export function renderFullSetReview(allCards, raters, container) {
+    if (!allCards || !raters || allCards.length === 0) {
+        container.innerHTML = "<p>No card data found.</p>";
+        return;
+    }
+
+    // Sort by WUBRGC order, then alphabetically by name
+    allCards.sort((a, b) => {
+        const colorSort = wubrgcOrder[a.Color] - wubrgcOrder[b.Color];
+        if (colorSort !== 0) return colorSort;
+        return a.Name.localeCompare(b.Name);
+    });
+
+    let html = '';
+    let currentColor = null; 
+
+    for (const card of allCards) {
+        // --- Add the grid-alignment break logic ---
+        if (card.Color !== currentColor) {
+            if (currentColor !== null) {
+                html += '<div class="gallery-group-break"></div>';
+            }
+            currentColor = card.Color;
+        }
+        // --- End logic ---
+
+        const imageUrl = getImageUrl(card.Name);
+        
+        const raterScores = raters.map(rName => 
+            `${rName.charAt(0)}: ${card[rName] || 'N/A'}`
+        ).join(', ');
+
+        html += `
+            <div class="card">
+                <img src="${imageUrl}" alt="${card.Name}">
+                <p class="card-name">${card.Name}</p>
+                <p class="card-stat">Group Avg: ${getGroupLetter(card.Group)} (${card.Group.toFixed(2)})</p>
+                <p class="card-stat rater-scores">Scores: ${raterScores}</p>
+            </div>
+        `;
+    }
+    container.innerHTML = html;
+}
+// --- END NEW FUNCTION ---
